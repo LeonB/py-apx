@@ -18,6 +18,8 @@ parser.add_argument('--version', action="store_true", dest='show_version',
                   default=0, help='print the version number')
 parser.add_argument('sa_learn_args', nargs=argparse.REMAINDER, 
                   help='sa-learn arguments to pass on')
+parser.add_argument('-g', '--guess', dest='guess', 
+                    action="store_true", help='guess if to pass the --spam, --ham or --forget argument to sa-learn')
 
 args = parser.parse_args()
 
@@ -29,7 +31,7 @@ if not sys.stdin.isatty(): # redirected from file or pipe
     stdin_data = "".join(sys.stdin.readlines())
 
 if not stdin_data:
-    Logger.getInstance().warning('no input data')
+    Logger.getInstance().error('no input data')
     sys.exit(2)
 
 mail = email.message_from_string(stdin_data)
