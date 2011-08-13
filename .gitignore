@@ -1,6 +1,6 @@
 *.pyc
 *.swp
-tests/attachments/
+tests/md5
 build/
 dist/
 pysal.egg-info/

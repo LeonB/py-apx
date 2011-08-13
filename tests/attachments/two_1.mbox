@@ -1,0 +1,393 @@
+From leon@tim-online.nl Sat Aug  6 01:55:49 2011
+Received: from localhost (10.76.122.24) by OPTIMUS.tim-online.nl
+ (10.76.122.150) with Microsoft SMTP Server (TLS) id 14.0.722.0; Sat, 6 Aug
+ 2011 01:55:49 +0200
+Subject: [Fwd: De perfecte beveiligingsoplossing]
+From: Leon Bogaert <leon@tim-online.nl>
+To: <leon@tim-online.nl>
+Content-Type: multipart/signed; micalg=sha1; protocol="application/x-pkcs7-signature"; boundary="=-Zv7GU8WPJJC+BeokFtsG"
+Organization: Tim_online
+Date: Sat, 6 Aug 2011 01:58:45 +0200
+Message-ID: <1312588725.15871.0.camel@polly.vanutsteen.nl>
+X-Mailer: Evolution 2.32.2 
+Return-Path: leon@tim-online.nl
+X-MS-Exchange-Organization-AuthSource: OPTIMUS.tim-online.nl
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-GFI-SMTP-Submission: 1
+X-GFI-SMTP-HelloDomain: localhost
+X-GFI-SMTP-RemoteIP: 10.76.122.24
+MIME-Version: 1.0
+
+--=-Zv7GU8WPJJC+BeokFtsG
+Content-Type: multipart/mixed; boundary="=-IOb2/PaQjSdH4dfI+9cy"
+
+--=-IOb2/PaQjSdH4dfI+9cy
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+
+
+
+--=-IOb2/PaQjSdH4dfI+9cy
+Content-Type: multipart/digest; boundary="=-Cakb7Z1CiFP4SkMPbkKg"
+Content-Description: Forwarded messages
+
+--=-Cakb7Z1CiFP4SkMPbkKg
+Content-Disposition: inline
+Content-Description: Forwarded message - De perfecte beveiligingsoplossing
+Content-Type: message/rfc822
+
+Received: from srv01.cdromland.nl (85.92.138.107) by OPTIMUS.tim-online.nl
+ (10.76.122.21) with Microsoft SMTP Server (TLS) id 14.0.722.0; Fri, 5 Aug
+ 2011 15:32:41 +0200
+Received: from apache by srv01.cdromland.nl with local (Exim
+ 4.67)(envelope-from <admin@cdromland.nl>)	id 1QpKYn-0002lN-Uu	for
+ leon@tim-online.nl; Fri, 05 Aug 2011 15:35:33 +0200
+To: <leon@tim-online.nl>
+Subject: De perfecte beveiligingsoplossing
+X-PHP-Script: www.cdromland.nl/email/mailbatch.php for 82.92.35.52
+Content-Type: text/html; charset="iso-8859-1"
+X-MimeOLE: Produced By cdromland.nl
+X-Originating-IP: [85.92.138.107]
+X-Sender-IP: [85.92.138.107]
+Reply-To: CD-ROM-LAND <mailing@cdromland.nl>
+X-Mailer: PHP v5.2.10
+From: CD-ROM-LAND <mailing@cdromland.nl>
+Message-ID: <E1QpKYn-0002lN-Uu@srv01.cdromland.nl>
+Date: Fri, 5 Aug 2011 15:35:33 +0200
+Return-Path: admin@cdromland.nl
+X-MS-Exchange-Organization-AuthSource: OPTIMUS.tim-online.nl
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-PRD: cdromland.nl
+X-MS-Exchange-Organization-SenderIdResult: Pass
+Received-SPF: Pass (OPTIMUS.tim-online.nl: domain of mailing@cdromland.nl
+ designates 85.92.138.107 as permitted sender)
+ receiver=OPTIMUS.tim-online.nl; client-ip=85.92.138.107;
+ helo=srv01.cdromland.nl;
+X-GFI-SMTP-Submission: 1
+X-GFI-SMTP-HelloDomain: srv01.cdromland.nl
+X-GFI-SMTP-RemoteIP: 85.92.138.107
+X-GFIME-MASPAM: SPAM
+X-MS-Exchange-Organization-SCL: 9
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1"></head>
+<font size=3D"2" face=3D"verdana">
+				<font face=3D"verdana" color=3D"#444444" size=3D"1">Mocht de mailing ni=
+et goed weergegeven worden, kopieer en plak dan de volgende link in uw inte=
+rnet browser: http://www.cdromland.nl/email/uploads/05-08-2011/24061.jpg<br=
+><br><br><br></font>
+				<center><a href=3D"http://www.cdromland.nl/index.php?siteOption=3Dprodu=
+cten&amp;mailid=3D797" target=3D"_blank"><img src=3D"http://www.cdromland.n=
+l/email/uploads/05-08-2011/24061.jpg" border=3D"0" width=3D"900" height=3D"=
+1192"></a></center>
+				<br><br><br><center><font size=3D"1" color=3D"#555555">Wil je geen emai=
+ls meer ontvangen van onze mailinglist?<br>Klik <a href=3D"http://www.cdrom=
+land.nl/maillist.php?mode=3Dafmelden&amp;email=3Dleon@tim-online.nl&amp;uid=
+=3D24061">op deze link</a> om je af te melden.</center>
+			</font></html>
+
+--=-Cakb7Z1CiFP4SkMPbkKg
+Content-Disposition: inline
+Content-Description: Forwarded message - [Syncany-team] I need your help
+ (some statistics about the user data, takes 2min)!
+Content-Type: message/rfc822
+
+Received: from adelie.canonical.com (91.189.90.139) by OPTIMUS.tim-online.nl
+ (10.76.122.21) with Microsoft SMTP Server id 14.0.722.0; Fri, 5 Aug 2011
+ 23:46:41 +0200
+Received: from forster.canonical.com ([91.189.90.190])	by adelie.canonical.com
+ with esmtp (Exim 4.71 #1 (Debian))	id 1QpSGs-0007MM-LV	for
+ <leon@tim-online.nl>; Fri, 05 Aug 2011 21:49:34 +0000
+Received: from forster.canonical.com ([91.189.90.190])	by
+ forster.canonical.com with esmtp (Exim 4.60 #1 (Debian))	id 1QpSGs-0005BX-E0
+ for <leon@tim-online.nl>; Fri, 05 Aug 2011 21:49:34 +0000
+Received: from mail-pz0-f43.google.com ([209.85.210.43])	by
+ forster.canonical.com with esmtp (Exim 4.71 #1 (Debian))	id 1QpSGc-0005BS-AS
+ for <syncany-team@lists.launchpad.net>; Fri, 05 Aug 2011 21:49:18 +0000
+Received: by pzk1 with SMTP id 1so3819477pzk.2	for
+ <syncany-team@lists.launchpad.net>;	Fri, 05 Aug 2011 14:49:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=gmail.com; s=gamma;
+ h=mime-version:date:message-id:subject:from:to:content-type;
+ bh=V1CQL5K/zy/jbFu0BTMKchOLdDR/mNZlkA2ix49+Y7U=;
+ b=v+poTWMGmmMSPIwuBQrgBkYq7NIDKCjQ5A2YdWKqXqH2hACi5FaQZL+mvMzmujcx7V
+ cZBvJliotZ7fTxcRCK1VBuqQ4tzJFo1RKqSUEoP/EVudvxLi9hDNIqHhozq8jcWAikZH
+ VrDbVSgo+f0UyoLf5zQITGI4U2ZU65DnpPQPY=
+Received: by 10.142.207.21 with SMTP id e21mr2435721wfg.52.1312580956106; Fri,
+ 05 Aug 2011 14:49:16 -0700 (PDT)
+Received: by 10.142.222.18 with HTTP; Fri, 5 Aug 2011 14:49:16 -0700 (PDT)
+Date: Fri, 5 Aug 2011 23:49:16 +0200
+Message-ID: <CAAvm79b00RYrF3Qn7CkNwkN0s_PdaHDfEi+=R6qfFmNxGZK3bA@mail.gmail.com>
+From: Philipp Heckel <philipp.heckel@gmail.com>
+To: Syncany Mailing List <syncany-team@lists.launchpad.net>
+Subject: [Syncany-team] I need your help (some statistics about the user
+ data, takes 2min)!
+X-BeenThere: syncany-team@lists.launchpad.net
+X-Mailman-Version: 2.1.12
+Precedence: list
+List-Id: <syncany-team.lists.launchpad.net>
+List-Help: <https://help.launchpad.net/ListHelp>
+List-Subscribe: <https://launchpad.net/~syncany-team>
+List-Unsubscribe: <https://launchpad.net/~syncany-team>
+List-Post: <mailto:syncany-team@lists.launchpad.net>
+List-Archive: <http://lists.launchpad.net/syncany-team>
+List-Owner: <https://launchpad.net/~syncany-team>
+Content-Type: multipart/mixed; boundary="===============1494610940=="
+Sender: <syncany-team-bounces+leon=tim-online.nl@lists.launchpad.net>
+Errors-To: syncany-team-bounces+leon=tim-online.nl@lists.launchpad.net
+Return-Path: syncany-team-bounces+leon=tim-online.nl@lists.launchpad.net
+X-MS-Exchange-Organization-AuthSource: OPTIMUS.tim-online.nl
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-PRD: lists.launchpad.net
+X-MS-Exchange-Organization-SenderIdResult: None
+Received-SPF: None (OPTIMUS.tim-online.nl:
+ syncany-team-bounces+leon=tim-online.nl@lists.launchpad.net does not
+ designate permitted sender hosts)
+X-GFI-SMTP-Submission: 1
+X-GFI-SMTP-HelloDomain: adelie.canonical.com
+X-GFI-SMTP-RemoteIP: 91.189.90.139
+MIME-Version: 1.0
+
+--===============1494610940==
+Content-Type: multipart/alternative; boundary="000e0cd32f9ea0ae2604a9c91151"
+
+--000e0cd32f9ea0ae2604a9c91151
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+Hi everyone!!
+
+As part of my Master thesis, I am trying to minimize the disk space that
+Syncany uses on the remote storage. To get the better results when
+deduplicating the user's files, it would be very helpful to know what type
+of files Syncany mostly has to deal with.
+I wrote a small java program to make some stats. Here's a detailed
+explanation: http://syncany.org/thesis
+It only *takes 2 minutes*, is completely anonymous and would really help me
+to make Syncany better/work!
+
+Cheers
+Philipp
+
+--000e0cd32f9ea0ae2604a9c91151
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8"><p=
+>Hi everyone!!
+
+	</p><p>As part of my Master thesis, I am trying to minimize the disk=20
+space that Syncany uses on the remote storage. To get the better results
+ when deduplicating the user's files, it would be very helpful to know what=
+ type of files Syncany mostly has to deal with.
+
+	</p>I wrote a small java program to make some stats. Here's a detailed exp=
+lanation: <a href=3D"http://syncany.org/thesis">http://syncany.org/thesis</=
+a><br>It only <b>takes 2 minutes</b>, is completely anonymous and would rea=
+lly help me to make Syncany better/work!<br>
+<br>Cheers<br>Philipp<br>
+
+--000e0cd32f9ea0ae2604a9c91151--
+
+--===============1494610940==
+Content-Type: text/plain; charset="us-ascii"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+--=20
+Mailing list: https://launchpad.net/~syncany-team
+Post to     : syncany-team@lists.launchpad.net
+Unsubscribe : https://launchpad.net/~syncany-team
+More help   : https://help.launchpad.net/ListHelp
+
+--===============1494610940==--
+
+--=-Cakb7Z1CiFP4SkMPbkKg--
+
+--=-IOb2/PaQjSdH4dfI+9cy
+Content-Type: image/jpeg; name="supermotard_cartoon_small.jpg"
+Content-Disposition: attachment; filename="supermotard_cartoon_small.jpg"
+Content-Transfer-Encoding: base64
+
+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
+
+
+--=-IOb2/PaQjSdH4dfI+9cy--
+
+--=-Zv7GU8WPJJC+BeokFtsG
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExCzAJBgUrDgMCGgUAMIAGCSqGSIb3DQEHAQAAoIITcDCCBjQw
+ggQcoAMCAQICAR4wDQYJKoZIhvcNAQEFBQAwfTELMAkGA1UEBhMCSUwxFjAUBgNVBAoTDVN0YXJ0
+Q29tIEx0ZC4xKzApBgNVBAsTIlNlY3VyZSBEaWdpdGFsIENlcnRpZmljYXRlIFNpZ25pbmcxKTAn
+BgNVBAMTIFN0YXJ0Q29tIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MB4XDTA3MTAyNDIxMDE1NVoX
+DTE3MTAyNDIxMDE1NVowgYwxCzAJBgNVBAYTAklMMRYwFAYDVQQKEw1TdGFydENvbSBMdGQuMSsw
+KQYDVQQLEyJTZWN1cmUgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBTaWduaW5nMTgwNgYDVQQDEy9TdGFy
+dENvbSBDbGFzcyAxIFByaW1hcnkgSW50ZXJtZWRpYXRlIENsaWVudCBDQTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAMcJg8zOLdgasSmkLhOrlr6KMoOMpohBllVHrdRvEg/q6r8jR+EK
+75xCGhR8ToREoqe7zM9/UnC6TS2y9UKTpT1v7RSMzR0t6ndl0TWBuUr/UXBhPk+Kmy7bI4yW4urC
++y7P3/1/X7U8ocb8VpH/Clt+4iq7nirMcNh6qJR+xjOhV+VHzQMALuGYn5KZmc1NbJQYclsGkDxD
+z2UbFqE2+6vIZoL+jb9x4Pa5gNf1TwSDkOkikZB1xtB4ZqtXThaABSONdfmv/Z1pua3FYxnCFmdr
+/+N2JLKutIxMYqQOJebr/f/h5t95m4JgrM3Y/w7YX9d7YAL9jvN4SydHsU6n65cCAwEAAaOCAa0w
+ggGpMA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgEGMB0GA1UdDgQWBBRTcu2SnODaywFc
+fH6WNU7y1LhRgjAfBgNVHSMEGDAWgBROC+8apEBbpRdphzDKNGhD0EGu8jBmBggrBgEFBQcBAQRa
+MFgwJwYIKwYBBQUHMAGGG2h0dHA6Ly9vY3NwLnN0YXJ0c3NsLmNvbS9jYTAtBggrBgEFBQcwAoYh
+aHR0cDovL3d3dy5zdGFydHNzbC5jb20vc2ZzY2EuY3J0MFsGA1UdHwRUMFIwJ6AloCOGIWh0dHA6
+Ly93d3cuc3RhcnRzc2wuY29tL3Nmc2NhLmNybDAnoCWgI4YhaHR0cDovL2NybC5zdGFydHNzbC5j
+b20vc2ZzY2EuY3JsMIGABgNVHSAEeTB3MHUGCysGAQQBgbU3AQIBMGYwLgYIKwYBBQUHAgEWImh0
+dHA6Ly93d3cuc3RhcnRzc2wuY29tL3BvbGljeS5wZGYwNAYIKwYBBQUHAgEWKGh0dHA6Ly93d3cu
+c3RhcnRzc2wuY29tL2ludGVybWVkaWF0ZS5wZGYwDQYJKoZIhvcNAQEFBQADggIBAAqDCH14qywG
+XLhjjF6uHLkjd02hcdh9hrw+VUsv+q1eeQWB21jWj3kJ96AUlPCoEGZ/ynJNScWy6QMVQjbbMXlt
+UfO4n4bGGdKo3awPWp61tjAFgraLJgDk+DsSvUD6EowjMTNx25GQgyYJ5RPIzKKR9tQW8gGK+2+R
+HxkUCTbYFnL6kl8Ch507rUdPPipJ9CgJFws3kDS3gOS5WFMxcjO5DwKfKSETEPrHh7p5shuuNktv
+sv6hxHTLhiMKX893gxdT3XLS9OKmCv87vkINQcNEcIIoFWbP9HORz9v3vQwR4e3ksLc2JZOAFK+s
+sS5XMEoznzpihEP0PLc4dCBYjbvSD7kxgDwZ+Aj8Q9PkbvE9sIPP7ON0fz095HdThKjiVJe6vofq
++n6b1NBc8XdrQvBmunwxD5nvtTW4vtN6VY7mUCmxsCieuoBJ9OlqmsVWQvifIYf40dJPZkk9YgGT
+zWLpXDSfLSplbY2LL9C9U0ptvjcDjefLTvqSFc7tw1sEhF0n/qpA2r0GpvkLRDmcSwVyPvmjFBGq
+Up/pNy8ZuPGQmHwFi2/14+xeSUDG2bwnsYJQG2EdJCB6luQ57GEnTA/yKZSTKI8dDQa8Sd3zfXb1
+9mOgSF0bBdXbuKhEpuP9wirslFe6fQ1t5j5R0xi72MZ8ikMu1RQZKCyDbMwazlHiMIIGmDCCBYCg
+AwIBAgIDAhV2MA0GCSqGSIb3DQEBBQUAMIGMMQswCQYDVQQGEwJJTDEWMBQGA1UEChMNU3RhcnRD
+b20gTHRkLjErMCkGA1UECxMiU2VjdXJlIERpZ2l0YWwgQ2VydGlmaWNhdGUgU2lnbmluZzE4MDYG
+A1UEAxMvU3RhcnRDb20gQ2xhc3MgMSBQcmltYXJ5IEludGVybWVkaWF0ZSBDbGllbnQgQ0EwHhcN
+MTEwMTIzMjIxNzQzWhcNMTIwMTI2MDA1MjEyWjCBkDEgMB4GA1UEDRMXMzQwODkxLVM0bFQyM0tX
+MzFNNnBpQTQxHjAcBgNVBAoTFVBlcnNvbmEgTm90IFZhbGlkYXRlZDEpMCcGA1UEAxMgU3RhcnRD
+b20gRnJlZSBDZXJ0aWZpY2F0ZSBNZW1iZXIxITAfBgkqhkiG9w0BCQEWEmxlb25AdGltLW9ubGlu
+ZS5ubDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOBQti0LF1oU6Be3mPjXB6JEfuWG
+ZU2cgdDP3pgjcxswlo6LI3CuxBNRB6tUR0pQsuAGyHuscmOZO8s+Eh/qO+W8Oe7cSE9T3vI0XY2Z
+cufrFoJFoksOz1m8zsvsbru5I5MWClqYzWYGYRB/iBhOFCWCeDO4oKVgFfYdQYn2FxgsaXrdbl3/
+5+fBCr+nohA5Cnt6mqNsvbRzVYeR3nuu/hJ/kaC7OGcMCTQFIyYNQfpwYgBsS/alxwGDH4V3UNth
+tLA/fo+fkEE1R9x7vfkrdUM2m1dL9TaBJHgD3iYh6g+FNd1IdGtjEIk6oy/m3oV3+cjuD0G/WwVp
+np6V4idBXIUCAwEAAaOCAvswggL3MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgSwMB0GA1UdJQQWMBQG
+CCsGAQUFBwMCBggrBgEFBQcDBDAdBgNVHQ4EFgQU1E5F/68X+5s/Lmluwo5t0qFtgEYwHwYDVR0j
+BBgwFoAUU3Ltkpzg2ssBXHx+ljVO8tS4UYIwHQYDVR0RBBYwFIESbGVvbkB0aW0tb25saW5lLm5s
+MIIBQgYDVR0gBIIBOTCCATUwggExBgsrBgEEAYG1NwECAjCCASAwLgYIKwYBBQUHAgEWImh0dHA6
+Ly93d3cuc3RhcnRzc2wuY29tL3BvbGljeS5wZGYwNAYIKwYBBQUHAgEWKGh0dHA6Ly93d3cuc3Rh
+cnRzc2wuY29tL2ludGVybWVkaWF0ZS5wZGYwgbcGCCsGAQUFBwICMIGqMBQWDVN0YXJ0Q29tIEx0
+ZC4wAwIBARqBkUxpbWl0ZWQgTGlhYmlsaXR5LCBzZWUgc2VjdGlvbiAqTGVnYWwgTGltaXRhdGlv
+bnMqIG9mIHRoZSBTdGFydENvbSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSBQb2xpY3kgYXZhaWxh
+YmxlIGF0IGh0dHA6Ly93d3cuc3RhcnRzc2wuY29tL3BvbGljeS5wZGYwYwYDVR0fBFwwWjAroCmg
+J4YlaHR0cDovL3d3dy5zdGFydHNzbC5jb20vY3J0dTEtY3JsLmNybDAroCmgJ4YlaHR0cDovL2Ny
+bC5zdGFydHNzbC5jb20vY3J0dTEtY3JsLmNybDCBjgYIKwYBBQUHAQEEgYEwfzA5BggrBgEFBQcw
+AYYtaHR0cDovL29jc3Auc3RhcnRzc2wuY29tL3N1Yi9jbGFzczEvY2xpZW50L2NhMEIGCCsGAQUF
+BzAChjZodHRwOi8vd3d3LnN0YXJ0c3NsLmNvbS9jZXJ0cy9zdWIuY2xhc3MxLmNsaWVudC5jYS5j
+cnQwIwYDVR0SBBwwGoYYaHR0cDovL3d3dy5zdGFydHNzbC5jb20vMA0GCSqGSIb3DQEBBQUAA4IB
+AQCBfpql3QC4YmlbNhJ93YoP2ahFH2V4mHaxFuzZXxQAqGe+qD0X8HFET041o/Ee/jxEF//m4Z06
+fnyhStrhXVpVLhuuDK5QjTVxZ1Gjr8ufc+KX74L90O7qNGPgEB8Iq5gBdjB4OkaEgnAXlTeEvfTC
+gFKWz946l0qLDhPGWKBxQBMvPYhsvOk4331rla+2bazuPP9QClVEGsu1AMawubBJ0+/Sgo45uL+m
+BgYiNKhDD1Aj+S7p8c23j6Y79aCUrW7JxbMPuByHlVAZl8YErc68pE+YsO0aSrtf/7NXN0JaVEJl
+/rfcK2OESt4X4tdC0Qzxb0XCuqHltMJ9JNxZL648MIIGmDCCBYCgAwIBAgIDAhV2MA0GCSqGSIb3
+DQEBBQUAMIGMMQswCQYDVQQGEwJJTDEWMBQGA1UEChMNU3RhcnRDb20gTHRkLjErMCkGA1UECxMi
+U2VjdXJlIERpZ2l0YWwgQ2VydGlmaWNhdGUgU2lnbmluZzE4MDYGA1UEAxMvU3RhcnRDb20gQ2xh
+c3MgMSBQcmltYXJ5IEludGVybWVkaWF0ZSBDbGllbnQgQ0EwHhcNMTEwMTIzMjIxNzQzWhcNMTIw
+MTI2MDA1MjEyWjCBkDEgMB4GA1UEDRMXMzQwODkxLVM0bFQyM0tXMzFNNnBpQTQxHjAcBgNVBAoT
+FVBlcnNvbmEgTm90IFZhbGlkYXRlZDEpMCcGA1UEAxMgU3RhcnRDb20gRnJlZSBDZXJ0aWZpY2F0
+ZSBNZW1iZXIxITAfBgkqhkiG9w0BCQEWEmxlb25AdGltLW9ubGluZS5ubDCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAOBQti0LF1oU6Be3mPjXB6JEfuWGZU2cgdDP3pgjcxswlo6LI3Cu
+xBNRB6tUR0pQsuAGyHuscmOZO8s+Eh/qO+W8Oe7cSE9T3vI0XY2ZcufrFoJFoksOz1m8zsvsbru5
+I5MWClqYzWYGYRB/iBhOFCWCeDO4oKVgFfYdQYn2FxgsaXrdbl3/5+fBCr+nohA5Cnt6mqNsvbRz
+VYeR3nuu/hJ/kaC7OGcMCTQFIyYNQfpwYgBsS/alxwGDH4V3UNthtLA/fo+fkEE1R9x7vfkrdUM2
+m1dL9TaBJHgD3iYh6g+FNd1IdGtjEIk6oy/m3oV3+cjuD0G/WwVpnp6V4idBXIUCAwEAAaOCAvsw
+ggL3MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgSwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcD
+BDAdBgNVHQ4EFgQU1E5F/68X+5s/Lmluwo5t0qFtgEYwHwYDVR0jBBgwFoAUU3Ltkpzg2ssBXHx+
+ljVO8tS4UYIwHQYDVR0RBBYwFIESbGVvbkB0aW0tb25saW5lLm5sMIIBQgYDVR0gBIIBOTCCATUw
+ggExBgsrBgEEAYG1NwECAjCCASAwLgYIKwYBBQUHAgEWImh0dHA6Ly93d3cuc3RhcnRzc2wuY29t
+L3BvbGljeS5wZGYwNAYIKwYBBQUHAgEWKGh0dHA6Ly93d3cuc3RhcnRzc2wuY29tL2ludGVybWVk
+aWF0ZS5wZGYwgbcGCCsGAQUFBwICMIGqMBQWDVN0YXJ0Q29tIEx0ZC4wAwIBARqBkUxpbWl0ZWQg
+TGlhYmlsaXR5LCBzZWUgc2VjdGlvbiAqTGVnYWwgTGltaXRhdGlvbnMqIG9mIHRoZSBTdGFydENv
+bSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSBQb2xpY3kgYXZhaWxhYmxlIGF0IGh0dHA6Ly93d3cu
+c3RhcnRzc2wuY29tL3BvbGljeS5wZGYwYwYDVR0fBFwwWjAroCmgJ4YlaHR0cDovL3d3dy5zdGFy
+dHNzbC5jb20vY3J0dTEtY3JsLmNybDAroCmgJ4YlaHR0cDovL2NybC5zdGFydHNzbC5jb20vY3J0
+dTEtY3JsLmNybDCBjgYIKwYBBQUHAQEEgYEwfzA5BggrBgEFBQcwAYYtaHR0cDovL29jc3Auc3Rh
+cnRzc2wuY29tL3N1Yi9jbGFzczEvY2xpZW50L2NhMEIGCCsGAQUFBzAChjZodHRwOi8vd3d3LnN0
+YXJ0c3NsLmNvbS9jZXJ0cy9zdWIuY2xhc3MxLmNsaWVudC5jYS5jcnQwIwYDVR0SBBwwGoYYaHR0
+cDovL3d3dy5zdGFydHNzbC5jb20vMA0GCSqGSIb3DQEBBQUAA4IBAQCBfpql3QC4YmlbNhJ93YoP
+2ahFH2V4mHaxFuzZXxQAqGe+qD0X8HFET041o/Ee/jxEF//m4Z06fnyhStrhXVpVLhuuDK5QjTVx
+Z1Gjr8ufc+KX74L90O7qNGPgEB8Iq5gBdjB4OkaEgnAXlTeEvfTCgFKWz946l0qLDhPGWKBxQBMv
+PYhsvOk4331rla+2bazuPP9QClVEGsu1AMawubBJ0+/Sgo45uL+mBgYiNKhDD1Aj+S7p8c23j6Y7
+9aCUrW7JxbMPuByHlVAZl8YErc68pE+YsO0aSrtf/7NXN0JaVEJl/rfcK2OESt4X4tdC0Qzxb0XC
+uqHltMJ9JNxZL648MYIDbzCCA2sCAQEwgZQwgYwxCzAJBgNVBAYTAklMMRYwFAYDVQQKEw1TdGFy
+dENvbSBMdGQuMSswKQYDVQQLEyJTZWN1cmUgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBTaWduaW5nMTgw
+NgYDVQQDEy9TdGFydENvbSBDbGFzcyAxIFByaW1hcnkgSW50ZXJtZWRpYXRlIENsaWVudCBDQQID
+AhV2MAkGBSsOAwIaBQCgggGvMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkF
+MQ8XDTExMDgwNTIzNTg0NVowIwYJKoZIhvcNAQkEMRYEFG38e0BSxvqyScX+2kxfgtIhoSPXMIGl
+BgkrBgEEAYI3EAQxgZcwgZQwgYwxCzAJBgNVBAYTAklMMRYwFAYDVQQKEw1TdGFydENvbSBMdGQu
+MSswKQYDVQQLEyJTZWN1cmUgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBTaWduaW5nMTgwNgYDVQQDEy9T
+dGFydENvbSBDbGFzcyAxIFByaW1hcnkgSW50ZXJtZWRpYXRlIENsaWVudCBDQQIDAhV2MIGnBgsq
+hkiG9w0BCRACCzGBl6CBlDCBjDELMAkGA1UEBhMCSUwxFjAUBgNVBAoTDVN0YXJ0Q29tIEx0ZC4x
+KzApBgNVBAsTIlNlY3VyZSBEaWdpdGFsIENlcnRpZmljYXRlIFNpZ25pbmcxODA2BgNVBAMTL1N0
+YXJ0Q29tIENsYXNzIDEgUHJpbWFyeSBJbnRlcm1lZGlhdGUgQ2xpZW50IENBAgMCFXYwDQYJKoZI
+hvcNAQEBBQAEggEAbHi9+a1mTCOGu3hKZdigmco3wk/xIoTVClVnvJSfPMd8f6AAdnBIHYJf1MN9
+QuWcWST4Xh6jEjgRR/ie6VEWw8FiSfzdXe45elay/58OG3m7NlmD+aIeKZBiyPvaKvQrzNZ7MoDO
+KMq9ylyfeYG9wyBDLlo+mOEJb6pY9UlufJO5iy4sWKU9kV9066IxaFnL95ECNvU9H6YGD7luoO5O
+9dpcOMZkxGqnMOlTuuj6053mCVZ0+PKf34NkjdR61Er5oAUXsMwviGbK+M4Jmveowcu3sD0lPG1s
+zg/mZ7pX4o8KsiU6jYX8gU9CXqAMj6w2YOPl4iQJZjNUVVM3zfL5awAAAAAAAA==
+
+
+--=-Zv7GU8WPJJC+BeokFtsG--
+

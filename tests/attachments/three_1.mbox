@@ -1,0 +1,551 @@
+From leon@tim-online.nl Sun Aug 14 00:04:46 2011
+Received: from localhost (10.76.122.24) by OPTIMUS.tim-online.nl
+ (10.76.122.21) with Microsoft SMTP Server (TLS) id 14.0.722.0; Sun, 14 Aug
+ 2011 00:04:46 +0200
+Subject: [Fwd: Re: [RoundCube Announce] Security update 0.5.4 is out]
+From: Leon Bogaert <leon@tim-online.nl>
+To: <leon@tim-online.nl>
+Content-Type: multipart/signed; micalg=sha1; protocol="application/x-pkcs7-signature"; boundary="=-jiG/LfAXvNsNDbfC2Mgz"
+Organization: Tim_online
+Date: Sun, 14 Aug 2011 00:07:51 +0200
+Message-ID: <1313273271.22758.2.camel@polly.vanutsteen.nl>
+X-Mailer: Evolution 2.32.2 
+Return-Path: leon@tim-online.nl
+X-MS-Exchange-Organization-AuthSource: OPTIMUS.tim-online.nl
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-GFI-SMTP-Submission: 1
+X-GFI-SMTP-HelloDomain: localhost
+X-GFI-SMTP-RemoteIP: 10.76.122.24
+MIME-Version: 1.0
+
+--=-jiG/LfAXvNsNDbfC2Mgz
+Content-Type: multipart/mixed; boundary="=-ynQcqirgtzN2qVz7831C"
+
+--=-ynQcqirgtzN2qVz7831C
+Content-Type: text/plain
+Content-Transfer-Encoding: quoted-printable
+
+
+
+--=-ynQcqirgtzN2qVz7831C
+Content-Type: multipart/digest; boundary="=-akERotmvuUWPqkDh48OY"
+Content-Description: Forwarded messages
+
+--=-akERotmvuUWPqkDh48OY
+Content-Disposition: inline
+Content-Description: Forwarded message - Re: [RoundCube Announce] Security
+ update 0.5.4 is out
+Content-Type: message/rfc822
+
+Received: from goat.gigo.com (216.218.228.114) by OPTIMUS.tim-online.nl
+ (10.76.122.21) with Microsoft SMTP Server id 14.0.722.0; Sat, 13 Aug 2011
+ 12:01:06 +0200
+Received: from goat.gigo.com (localhost [127.0.0.1])	by goat.gigo.com
+ (Postfix) with ESMTP id 7C8ABDDB3	for <leon@tim-online.nl>; Sat, 13 Aug 2011
+ 02:25:17 -0700 (PDT)
+X-Original-To: announce@lists.roundcube.net
+Delivered-To: announce@gigo.com
+Received: from psmtp.com (na3sys010amx133.postini.com [74.125.245.133])	by
+ goat.gigo.com (Postfix) with ESMTPS id 13118B93F;	Sat, 13 Aug 2011 02:23:49
+ -0700 (PDT)
+Received: from mail-vx0-f178.google.com ([209.85.220.178]) (using TLSv1)
+ byna3sys010amx133.postini.com ([74.125.244.14]) with SMTP; 	Sat, 13 Aug 2011
+ 09:23:55 GMT
+Received: by vxi19 with SMTP id 19so3186139vxi.9	for <multiple recipients>;
+ Sat, 13 Aug 2011 02:23:47 -0700 (PDT)
+Received: by 10.52.175.131 with SMTP id ca3mr1670019vdc.519.1313227427653;Sat,
+ 13 Aug 2011 02:23:47 -0700 (PDT)
+Received: by 10.52.157.9 with HTTP; Sat, 13 Aug 2011 02:23:47 -0700 (PDT)
+In-Reply-To: <CAO3naw4FXpbjcPU7WDjRO9LRW1srtj_9oepLO82mWLQtEyU0vg@mail.gmail.com>
+References: <CAO3naw4FXpbjcPU7WDjRO9LRW1srtj_9oepLO82mWLQtEyU0vg@mail.gmail.com>
+Date: Sat, 13 Aug 2011 11:23:47 +0200
+X-Google-Sender-Auth: M2h2FUvlg2R1rEREspHRlkhgaLs
+Message-ID: <CAO3naw74_GEV6WzZQH7BnJA0XwEce3KMLA-5=obepWNSYqC=bQ@mail.gmail.com>
+From: Thomas Bruederli <thomas@roundcube.net>
+To: Roundcube Announce List <announce@lists.roundcube.net>
+X-pstn-neptune: 0/0/0.00/0
+X-pstn-levels: (S:99.90000/99.90000 CV:99.9000 FC:95.5390 LC:95.5390
+ R:95.9108P:95.9108 M:97.0282 C:98.6951 )
+X-Mailman-Approved-At: Sat, 13 Aug 2011 02:24:48 -0700
+CC: Roundcube Users List <users@lists.roundcube.net>, Roundcube Dev List
+	<dev@lists.roundcube.net>
+Subject: Re: [RoundCube Announce] Security update 0.5.4 is out
+X-BeenThere: announce@lists.roundcube.net
+X-Mailman-Version: 2.1.9
+Precedence: list
+List-Id: RoundCube Announce <announce.lists.roundcube.net>
+List-Unsubscribe: <http://lists.roundcube.net/mailman/listinfo/announce>,<mailto:announce-request@lists.roundcube.net?subject=unsubscribe>
+List-Post: <mailto:announce@lists.roundcube.net>
+List-Help: <mailto:announce-request@lists.roundcube.net?subject=help>
+List-Subscribe: <http://lists.roundcube.net/mailman/listinfo/announce>,<mailto:announce-request@lists.roundcube.net?subject=subscribe>
+Content-Type: text/plain; charset="us-ascii"
+Sender: <announce-bounces+leon=tim-online.nl@lists.roundcube.net>
+Errors-To: announce-bounces+leon=tim-online.nl@lists.roundcube.net
+Return-Path: announce-bounces+leon=tim-online.nl@lists.roundcube.net
+X-MS-Exchange-Organization-AuthSource: OPTIMUS.tim-online.nl
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-PRD: lists.roundcube.net
+X-MS-Exchange-Organization-SenderIdResult: None
+Received-SPF: None (OPTIMUS.tim-online.nl:
+ announce-bounces+leon=tim-online.nl@lists.roundcube.net does not designate
+ permitted sender hosts)
+X-GFI-SMTP-Submission: 1
+X-GFI-SMTP-HelloDomain: goat.gigo.com
+X-GFI-SMTP-RemoteIP: 216.218.228.114
+X-GFIME-MASPAM: SPAM
+X-MS-Exchange-Organization-SCL: 9
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+Hello again
+
+I'm very sorry for the inconvenience but the 0.5.4 package which we
+have published yesterday was incomplete and some of your already found
+out. The packages are now updated so please go and re-download it
+again. Make sure that the checksum od the downloaded file is
+a4a401b87a89eabd5e113d9e2fe2ea84 (MD5) or
+d3f4155edf9ef276a948d7b004a7be8890524a54 (SHA1).
+
+Again, I'm very sorry for that! Will test better when releasing.
+
+Best regards,
+Thomas
+
+
+On Fri, Aug 12, 2011 at 22:12, Thomas Bruederli <thomas@roundcube.net> wrot=
+e:
+> Hello Roundcube users
+>
+> We just published a new release which fixes a recently reported XSS
+> vulnerability as an update to the stable 0.5 branch. Please update
+> your installations with this new version or patch them with the fix
+> which is also published in the downloads section or our
+> sourceforge.net page [1].
+>
+> And stay tuned, 0.6-beta is on the way with lots of new features ;-)
+>
+> ~Thomas
+>
+> [1] https://sourceforge.net/projects/roundcubemail/files/roundcubemail/0.=
+5.4/
+>
+_______________________________________________
+RoundCube Announce mailing list
+Announce@lists.roundcube.net
+http://lists.roundcube.net/mailman/listinfo/announce
+BT/1a9637ac
+
+--=-akERotmvuUWPqkDh48OY
+Content-Disposition: inline
+Content-Description: Forwarded message - Approved Canadian Healthcare, Best
+ ... Buy viagra cialis levitra, viagra online cialis no prescription EXTRA
+ LOW PRICES!
+Content-Type: message/rfc822
+
+Received: from qaqv2s9kyufqd (189.60.252.225) by OPTIMUS.tim-online.nl
+ (10.76.122.21) with Microsoft SMTP Server id 14.0.722.0; Sat, 13 Aug 2011
+ 18:27:14 +0200
+Subject: Approved Canadian Healthcare, Best ... Buy viagra cialis levitra,
+ viagra online cialis no prescription EXTRA LOW PRICES!
+To: <marien@tim-online.nl>
+From: ALLEEN AMANDA <lucilaporsha@avaya.com>
+Message-ID: <75h79v60n39-08062123-130s6h42@aamguxhmj>
+Date: Sat, 13 Aug 2011 14:25:11 -0300
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_004_0CB2_15C13E21.FE907263"
+Return-Path: lucilaporsha@avaya.com
+X-MS-Exchange-Organization-AuthSource: OPTIMUS.tim-online.nl
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-PRD: avaya.com
+X-MS-Exchange-Organization-SenderIdResult: None
+Received-SPF: None (OPTIMUS.tim-online.nl: lucilaporsha@avaya.com does not
+ designate permitted sender hosts)
+X-GFI-SMTP-Submission: 1
+X-GFI-SMTP-HelloDomain: qaqv2s9kyufqd
+X-GFI-SMTP-RemoteIP: 189.60.252.225
+X-GFIME-MASPAM: SPAM
+X-MS-Exchange-Organization-SCL: 9
+MIME-Version: 1.0
+
+------=_NextPart_004_0CB2_15C13E21.FE907263
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+    =20
+      #1 =96 Buy viagra cialis levitra
+
+Approved Canadian Healthcare, Best ... Buy viagra cialis levitra, viagra on=
+line cialis no prescription EXTRA LOW PRICES!
+
+Buy real viagra online without prescription.
+http://rxdrugsrumunity.ru
+ =20
+
+------=_NextPart_004_0CB2_15C13E21.FE907263
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"><html><head>
+<meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Diso-8859-=
+1"></head>
+<center><font size=3D"4" face=3D"arial" color=3D"0000FF"><center><b>##@1 &#=
+8211; Buy viagra cialis levitra</b><br><br>
+<font color=3D"000000" size=3D"2">Approved Canadian Healthcare, Best ...
+Buy viagra cialis levitra, viagra online cialis no prescription EXTRA LOW P=
+RICES!</font><br><br><a href=3D"http://rxdrugsrumunity.ru" target=3D"_blank=
+"><font size=3D"4" color=3D"ff0080"><b>Buy real viagra online without presc=
+ription.</b></font></a></center></html>
+
+------=_NextPart_004_0CB2_15C13E21.FE907263--
+
+--=-akERotmvuUWPqkDh48OY
+Content-Disposition: inline
+Content-Description: Forwarded message - gstreamer-devel Digest, Vol 7,
+ Issue 43
+Content-Type: message/rfc822
+
+Received: from gabe.freedesktop.org (131.252.210.177) by OPTIMUS.tim-online.nl
+ (10.76.122.21) with Microsoft SMTP Server id 14.0.722.0; Sat, 13 Aug 2011
+ 20:57:39 +0200
+Received: from gabe.freedesktop.org (localhost [127.0.0.1])	by
+ gabe.freedesktop.org (Postfix) with ESMTP id CF2F99E75E	for
+ <leon@tim-online.nl>; Sat, 13 Aug 2011 12:00:28 -0700 (PDT)
+From: <gstreamer-devel-request@lists.freedesktop.org>
+Subject: gstreamer-devel Digest, Vol 7, Issue 43
+To: <gstreamer-devel@lists.freedesktop.org>
+Reply-To: <gstreamer-devel@lists.freedesktop.org>
+Date: Sat, 13 Aug 2011 12:00:03 -0700
+Message-ID: <mailman.7.1313262003.4725.gstreamer-devel@lists.freedesktop.org>
+Content-Type: text/plain; charset="us-ascii"
+X-BeenThere: gstreamer-devel@lists.freedesktop.org
+X-Mailman-Version: 2.1.11
+Precedence: list
+List-Id: Discussion of the development of and with
+ GStreamer<gstreamer-devel.lists.freedesktop.org>
+List-Unsubscribe: <http://lists.freedesktop.org/mailman/options/gstreamer-devel>,
+ <mailto:gstreamer-devel-request@lists.freedesktop.org?subject=unsubscribe>
+List-Archive: <http://lists.freedesktop.org/archives/gstreamer-devel>
+List-Post: <mailto:gstreamer-devel@lists.freedesktop.org>
+List-Help: <mailto:gstreamer-devel-request@lists.freedesktop.org?subject=help>
+List-Subscribe: <http://lists.freedesktop.org/mailman/listinfo/gstreamer-devel>,<mailto:gstreamer-devel-request@lists.freedesktop.org?subject=subscribe>
+Sender: <gstreamer-devel-bounces+leon=tim-online.nl@lists.freedesktop.org>
+Errors-To: gstreamer-devel-bounces+leon=tim-online.nl@lists.freedesktop.org
+Return-Path: gstreamer-devel-bounces+leon=tim-online.nl@lists.freedesktop.org
+X-MS-Exchange-Organization-AuthSource: OPTIMUS.tim-online.nl
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-PRD: lists.freedesktop.org
+X-MS-Exchange-Organization-SenderIdResult: None
+Received-SPF: None (OPTIMUS.tim-online.nl:
+ gstreamer-devel-bounces+leon=tim-online.nl@lists.freedesktop.org does not
+ designate permitted sender hosts)
+X-GFI-SMTP-Submission: 1
+X-GFI-SMTP-HelloDomain: gabe.freedesktop.org
+X-GFI-SMTP-RemoteIP: 131.252.210.177
+X-GFIME-MASPAM: SPAM
+X-MS-Exchange-Organization-SCL: 9
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+
+Send gstreamer-devel mailing list submissions to
+	gstreamer-devel@lists.freedesktop.org
+
+To subscribe or unsubscribe via the World Wide Web, visit
+	http://lists.freedesktop.org/mailman/listinfo/gstreamer-devel
+or, via email, send a message with subject or body 'help' to
+	gstreamer-devel-request@lists.freedesktop.org
+
+You can reach the person managing the list at
+	gstreamer-devel-owner@lists.freedesktop.org
+
+When replying, please edit your Subject line so it is more specific
+than "Re: Contents of gstreamer-devel digest..."
+
+
+Today's Topics:
+
+   1. [PiTiVi] ANNOUNCE: Pitivi unstable release 0.14.2
+      (Thibault Saunier)
+   2. RE: Trying to use playbin2 with filesink. (Steve)
+
+
+----------------------------------------------------------------------
+
+Message: 1
+Date: Sat, 13 Aug 2011 15:37:16 +0200
+From: Thibault Saunier <thibault.saunier@collabora.com>
+Subject: [PiTiVi] ANNOUNCE: Pitivi unstable release 0.14.2
+To: pitivi-pitivi@lists.sourceforge.net
+Message-ID: <1313242636.2057.20.camel@thiblahute>
+Content-Type: text/plain; charset=3D"UTF-8"
+
+Hello all,
+
+This mail announces the immediate availability of the new unstable
+release of the PiTiVi video editor 0.14.2. This is the result of the
+PiTiVi hackfest[0] we had during the Desktop Summit in Berlin.
+
+PiTiVi is an open source video editor, written in Python and based on
+GStreamer and GTK+.
+
+Major changes in this unstable release are:
+    * Transformation UI directly in the video viewer
+    * Auto-aligner feature
+    * User manual in mallard
+    * Soft dependency manager
+    * UI enhancements
+    * Code cleanup
+    * ...
+
+And of course many bugs fixed.
+
+We are now starting the feature freeze in order to keep following the
+Gnome schedule and have a last stable release based on the current
+python core of PiTiVi in September. We are now concentrating on the
+Gstreamer Editing Services port for the following releases.
+
+To file bugs, please go to:
+http://bugzilla.gnome.org/enter_bug.cgi?product=3Dpitivi
+
+Tarballs are available here:
+http://ftp.gnome.org/pub/GNOME/sources/pitivi/0.14/
+
+Thanks for testing it and help us making a great release due for the
+26th of September.
+
+Enjoy!
+
+  Thibault, on behalf of the PiTiVi team.
+
+[0] https://live.gnome.org/Hackfests/PitiviGES2011
+
+
+
+------------------------------
+
+Message: 2
+Date: Sat, 13 Aug 2011 11:48:36 -0300
+From: "Steve" <it@sca-uk.com>
+Subject: RE: Trying to use playbin2 with filesink.
+To: "'Discussion of the development of and with GStreamer'"
+	<gstreamer-devel@lists.freedesktop.org>
+Message-ID: <84DEA41212A5415F9F34A566BE8326EE@SACWS001>
+Content-Type: text/plain;	charset=3D"us-ascii"
+
+> -----Original Message-----
+> Michael Smith wrote:
+> Sent: 12 August 2011 18:19
+
+> If you're really stuck with using playbin2 for this, you can create a
+> bin that contains your tee, the encoder, etc, as well as the normal
+> videosink, and set that as the video-sink property on playbin2. Pretty
+> ugly, but should be possible.
+>=20
+How would 'pause' work?  I assume it would pause the whole pipeline=20
+including the filesave.  I need the filesave to be continuous and the=20
+pause to work only on the screen sink.
+
+What do you think?
+
+Regards
+
+Steve
+
+
+
+------------------------------
+
+_______________________________________________
+gstreamer-devel mailing list
+gstreamer-devel@lists.freedesktop.org
+http://lists.freedesktop.org/mailman/listinfo/gstreamer-devel
+
+
+End of gstreamer-devel Digest, Vol 7, Issue 43
+**********************************************
+
+--=-akERotmvuUWPqkDh48OY--
+
+--=-ynQcqirgtzN2qVz7831C
+Content-Type: image/jpeg; name="supermotard_cartoon_small.jpg"
+Content-Disposition: attachment; filename="supermotard_cartoon_small.jpg"
+Content-Transfer-Encoding: base64
+
+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
+
+
+--=-ynQcqirgtzN2qVz7831C--
+
+--=-jiG/LfAXvNsNDbfC2Mgz
+Content-Type: application/x-pkcs7-signature; name="smime.p7s"
+Content-Disposition: attachment; filename="smime.p7s"
+Content-Transfer-Encoding: base64
+
+MIAGCSqGSIb3DQEHAqCAMIACAQExCzAJBgUrDgMCGgUAMIAGCSqGSIb3DQEHAQAAoIITcDCCBjQw
+ggQcoAMCAQICAR4wDQYJKoZIhvcNAQEFBQAwfTELMAkGA1UEBhMCSUwxFjAUBgNVBAoTDVN0YXJ0
+Q29tIEx0ZC4xKzApBgNVBAsTIlNlY3VyZSBEaWdpdGFsIENlcnRpZmljYXRlIFNpZ25pbmcxKTAn
+BgNVBAMTIFN0YXJ0Q29tIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MB4XDTA3MTAyNDIxMDE1NVoX
+DTE3MTAyNDIxMDE1NVowgYwxCzAJBgNVBAYTAklMMRYwFAYDVQQKEw1TdGFydENvbSBMdGQuMSsw
+KQYDVQQLEyJTZWN1cmUgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBTaWduaW5nMTgwNgYDVQQDEy9TdGFy
+dENvbSBDbGFzcyAxIFByaW1hcnkgSW50ZXJtZWRpYXRlIENsaWVudCBDQTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAMcJg8zOLdgasSmkLhOrlr6KMoOMpohBllVHrdRvEg/q6r8jR+EK
+75xCGhR8ToREoqe7zM9/UnC6TS2y9UKTpT1v7RSMzR0t6ndl0TWBuUr/UXBhPk+Kmy7bI4yW4urC
++y7P3/1/X7U8ocb8VpH/Clt+4iq7nirMcNh6qJR+xjOhV+VHzQMALuGYn5KZmc1NbJQYclsGkDxD
+z2UbFqE2+6vIZoL+jb9x4Pa5gNf1TwSDkOkikZB1xtB4ZqtXThaABSONdfmv/Z1pua3FYxnCFmdr
+/+N2JLKutIxMYqQOJebr/f/h5t95m4JgrM3Y/w7YX9d7YAL9jvN4SydHsU6n65cCAwEAAaOCAa0w
+ggGpMA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgEGMB0GA1UdDgQWBBRTcu2SnODaywFc
+fH6WNU7y1LhRgjAfBgNVHSMEGDAWgBROC+8apEBbpRdphzDKNGhD0EGu8jBmBggrBgEFBQcBAQRa
+MFgwJwYIKwYBBQUHMAGGG2h0dHA6Ly9vY3NwLnN0YXJ0c3NsLmNvbS9jYTAtBggrBgEFBQcwAoYh
+aHR0cDovL3d3dy5zdGFydHNzbC5jb20vc2ZzY2EuY3J0MFsGA1UdHwRUMFIwJ6AloCOGIWh0dHA6
+Ly93d3cuc3RhcnRzc2wuY29tL3Nmc2NhLmNybDAnoCWgI4YhaHR0cDovL2NybC5zdGFydHNzbC5j
+b20vc2ZzY2EuY3JsMIGABgNVHSAEeTB3MHUGCysGAQQBgbU3AQIBMGYwLgYIKwYBBQUHAgEWImh0
+dHA6Ly93d3cuc3RhcnRzc2wuY29tL3BvbGljeS5wZGYwNAYIKwYBBQUHAgEWKGh0dHA6Ly93d3cu
+c3RhcnRzc2wuY29tL2ludGVybWVkaWF0ZS5wZGYwDQYJKoZIhvcNAQEFBQADggIBAAqDCH14qywG
+XLhjjF6uHLkjd02hcdh9hrw+VUsv+q1eeQWB21jWj3kJ96AUlPCoEGZ/ynJNScWy6QMVQjbbMXlt
+UfO4n4bGGdKo3awPWp61tjAFgraLJgDk+DsSvUD6EowjMTNx25GQgyYJ5RPIzKKR9tQW8gGK+2+R
+HxkUCTbYFnL6kl8Ch507rUdPPipJ9CgJFws3kDS3gOS5WFMxcjO5DwKfKSETEPrHh7p5shuuNktv
+sv6hxHTLhiMKX893gxdT3XLS9OKmCv87vkINQcNEcIIoFWbP9HORz9v3vQwR4e3ksLc2JZOAFK+s
+sS5XMEoznzpihEP0PLc4dCBYjbvSD7kxgDwZ+Aj8Q9PkbvE9sIPP7ON0fz095HdThKjiVJe6vofq
++n6b1NBc8XdrQvBmunwxD5nvtTW4vtN6VY7mUCmxsCieuoBJ9OlqmsVWQvifIYf40dJPZkk9YgGT
+zWLpXDSfLSplbY2LL9C9U0ptvjcDjefLTvqSFc7tw1sEhF0n/qpA2r0GpvkLRDmcSwVyPvmjFBGq
+Up/pNy8ZuPGQmHwFi2/14+xeSUDG2bwnsYJQG2EdJCB6luQ57GEnTA/yKZSTKI8dDQa8Sd3zfXb1
+9mOgSF0bBdXbuKhEpuP9wirslFe6fQ1t5j5R0xi72MZ8ikMu1RQZKCyDbMwazlHiMIIGmDCCBYCg
+AwIBAgIDAhV2MA0GCSqGSIb3DQEBBQUAMIGMMQswCQYDVQQGEwJJTDEWMBQGA1UEChMNU3RhcnRD
+b20gTHRkLjErMCkGA1UECxMiU2VjdXJlIERpZ2l0YWwgQ2VydGlmaWNhdGUgU2lnbmluZzE4MDYG
+A1UEAxMvU3RhcnRDb20gQ2xhc3MgMSBQcmltYXJ5IEludGVybWVkaWF0ZSBDbGllbnQgQ0EwHhcN
+MTEwMTIzMjIxNzQzWhcNMTIwMTI2MDA1MjEyWjCBkDEgMB4GA1UEDRMXMzQwODkxLVM0bFQyM0tX
+MzFNNnBpQTQxHjAcBgNVBAoTFVBlcnNvbmEgTm90IFZhbGlkYXRlZDEpMCcGA1UEAxMgU3RhcnRD
+b20gRnJlZSBDZXJ0aWZpY2F0ZSBNZW1iZXIxITAfBgkqhkiG9w0BCQEWEmxlb25AdGltLW9ubGlu
+ZS5ubDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOBQti0LF1oU6Be3mPjXB6JEfuWG
+ZU2cgdDP3pgjcxswlo6LI3CuxBNRB6tUR0pQsuAGyHuscmOZO8s+Eh/qO+W8Oe7cSE9T3vI0XY2Z
+cufrFoJFoksOz1m8zsvsbru5I5MWClqYzWYGYRB/iBhOFCWCeDO4oKVgFfYdQYn2FxgsaXrdbl3/
+5+fBCr+nohA5Cnt6mqNsvbRzVYeR3nuu/hJ/kaC7OGcMCTQFIyYNQfpwYgBsS/alxwGDH4V3UNth
+tLA/fo+fkEE1R9x7vfkrdUM2m1dL9TaBJHgD3iYh6g+FNd1IdGtjEIk6oy/m3oV3+cjuD0G/WwVp
+np6V4idBXIUCAwEAAaOCAvswggL3MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgSwMB0GA1UdJQQWMBQG
+CCsGAQUFBwMCBggrBgEFBQcDBDAdBgNVHQ4EFgQU1E5F/68X+5s/Lmluwo5t0qFtgEYwHwYDVR0j
+BBgwFoAUU3Ltkpzg2ssBXHx+ljVO8tS4UYIwHQYDVR0RBBYwFIESbGVvbkB0aW0tb25saW5lLm5s
+MIIBQgYDVR0gBIIBOTCCATUwggExBgsrBgEEAYG1NwECAjCCASAwLgYIKwYBBQUHAgEWImh0dHA6
+Ly93d3cuc3RhcnRzc2wuY29tL3BvbGljeS5wZGYwNAYIKwYBBQUHAgEWKGh0dHA6Ly93d3cuc3Rh
+cnRzc2wuY29tL2ludGVybWVkaWF0ZS5wZGYwgbcGCCsGAQUFBwICMIGqMBQWDVN0YXJ0Q29tIEx0
+ZC4wAwIBARqBkUxpbWl0ZWQgTGlhYmlsaXR5LCBzZWUgc2VjdGlvbiAqTGVnYWwgTGltaXRhdGlv
+bnMqIG9mIHRoZSBTdGFydENvbSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSBQb2xpY3kgYXZhaWxh
+YmxlIGF0IGh0dHA6Ly93d3cuc3RhcnRzc2wuY29tL3BvbGljeS5wZGYwYwYDVR0fBFwwWjAroCmg
+J4YlaHR0cDovL3d3dy5zdGFydHNzbC5jb20vY3J0dTEtY3JsLmNybDAroCmgJ4YlaHR0cDovL2Ny
+bC5zdGFydHNzbC5jb20vY3J0dTEtY3JsLmNybDCBjgYIKwYBBQUHAQEEgYEwfzA5BggrBgEFBQcw
+AYYtaHR0cDovL29jc3Auc3RhcnRzc2wuY29tL3N1Yi9jbGFzczEvY2xpZW50L2NhMEIGCCsGAQUF
+BzAChjZodHRwOi8vd3d3LnN0YXJ0c3NsLmNvbS9jZXJ0cy9zdWIuY2xhc3MxLmNsaWVudC5jYS5j
+cnQwIwYDVR0SBBwwGoYYaHR0cDovL3d3dy5zdGFydHNzbC5jb20vMA0GCSqGSIb3DQEBBQUAA4IB
+AQCBfpql3QC4YmlbNhJ93YoP2ahFH2V4mHaxFuzZXxQAqGe+qD0X8HFET041o/Ee/jxEF//m4Z06
+fnyhStrhXVpVLhuuDK5QjTVxZ1Gjr8ufc+KX74L90O7qNGPgEB8Iq5gBdjB4OkaEgnAXlTeEvfTC
+gFKWz946l0qLDhPGWKBxQBMvPYhsvOk4331rla+2bazuPP9QClVEGsu1AMawubBJ0+/Sgo45uL+m
+BgYiNKhDD1Aj+S7p8c23j6Y79aCUrW7JxbMPuByHlVAZl8YErc68pE+YsO0aSrtf/7NXN0JaVEJl
+/rfcK2OESt4X4tdC0Qzxb0XCuqHltMJ9JNxZL648MIIGmDCCBYCgAwIBAgIDAhV2MA0GCSqGSIb3
+DQEBBQUAMIGMMQswCQYDVQQGEwJJTDEWMBQGA1UEChMNU3RhcnRDb20gTHRkLjErMCkGA1UECxMi
+U2VjdXJlIERpZ2l0YWwgQ2VydGlmaWNhdGUgU2lnbmluZzE4MDYGA1UEAxMvU3RhcnRDb20gQ2xh
+c3MgMSBQcmltYXJ5IEludGVybWVkaWF0ZSBDbGllbnQgQ0EwHhcNMTEwMTIzMjIxNzQzWhcNMTIw
+MTI2MDA1MjEyWjCBkDEgMB4GA1UEDRMXMzQwODkxLVM0bFQyM0tXMzFNNnBpQTQxHjAcBgNVBAoT
+FVBlcnNvbmEgTm90IFZhbGlkYXRlZDEpMCcGA1UEAxMgU3RhcnRDb20gRnJlZSBDZXJ0aWZpY2F0
+ZSBNZW1iZXIxITAfBgkqhkiG9w0BCQEWEmxlb25AdGltLW9ubGluZS5ubDCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAOBQti0LF1oU6Be3mPjXB6JEfuWGZU2cgdDP3pgjcxswlo6LI3Cu
+xBNRB6tUR0pQsuAGyHuscmOZO8s+Eh/qO+W8Oe7cSE9T3vI0XY2ZcufrFoJFoksOz1m8zsvsbru5
+I5MWClqYzWYGYRB/iBhOFCWCeDO4oKVgFfYdQYn2FxgsaXrdbl3/5+fBCr+nohA5Cnt6mqNsvbRz
+VYeR3nuu/hJ/kaC7OGcMCTQFIyYNQfpwYgBsS/alxwGDH4V3UNthtLA/fo+fkEE1R9x7vfkrdUM2
+m1dL9TaBJHgD3iYh6g+FNd1IdGtjEIk6oy/m3oV3+cjuD0G/WwVpnp6V4idBXIUCAwEAAaOCAvsw
+ggL3MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgSwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcD
+BDAdBgNVHQ4EFgQU1E5F/68X+5s/Lmluwo5t0qFtgEYwHwYDVR0jBBgwFoAUU3Ltkpzg2ssBXHx+
+ljVO8tS4UYIwHQYDVR0RBBYwFIESbGVvbkB0aW0tb25saW5lLm5sMIIBQgYDVR0gBIIBOTCCATUw
+ggExBgsrBgEEAYG1NwECAjCCASAwLgYIKwYBBQUHAgEWImh0dHA6Ly93d3cuc3RhcnRzc2wuY29t
+L3BvbGljeS5wZGYwNAYIKwYBBQUHAgEWKGh0dHA6Ly93d3cuc3RhcnRzc2wuY29tL2ludGVybWVk
+aWF0ZS5wZGYwgbcGCCsGAQUFBwICMIGqMBQWDVN0YXJ0Q29tIEx0ZC4wAwIBARqBkUxpbWl0ZWQg
+TGlhYmlsaXR5LCBzZWUgc2VjdGlvbiAqTGVnYWwgTGltaXRhdGlvbnMqIG9mIHRoZSBTdGFydENv
+bSBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSBQb2xpY3kgYXZhaWxhYmxlIGF0IGh0dHA6Ly93d3cu
+c3RhcnRzc2wuY29tL3BvbGljeS5wZGYwYwYDVR0fBFwwWjAroCmgJ4YlaHR0cDovL3d3dy5zdGFy
+dHNzbC5jb20vY3J0dTEtY3JsLmNybDAroCmgJ4YlaHR0cDovL2NybC5zdGFydHNzbC5jb20vY3J0
+dTEtY3JsLmNybDCBjgYIKwYBBQUHAQEEgYEwfzA5BggrBgEFBQcwAYYtaHR0cDovL29jc3Auc3Rh
+cnRzc2wuY29tL3N1Yi9jbGFzczEvY2xpZW50L2NhMEIGCCsGAQUFBzAChjZodHRwOi8vd3d3LnN0
+YXJ0c3NsLmNvbS9jZXJ0cy9zdWIuY2xhc3MxLmNsaWVudC5jYS5jcnQwIwYDVR0SBBwwGoYYaHR0
+cDovL3d3dy5zdGFydHNzbC5jb20vMA0GCSqGSIb3DQEBBQUAA4IBAQCBfpql3QC4YmlbNhJ93YoP
+2ahFH2V4mHaxFuzZXxQAqGe+qD0X8HFET041o/Ee/jxEF//m4Z06fnyhStrhXVpVLhuuDK5QjTVx
+Z1Gjr8ufc+KX74L90O7qNGPgEB8Iq5gBdjB4OkaEgnAXlTeEvfTCgFKWz946l0qLDhPGWKBxQBMv
+PYhsvOk4331rla+2bazuPP9QClVEGsu1AMawubBJ0+/Sgo45uL+mBgYiNKhDD1Aj+S7p8c23j6Y7
+9aCUrW7JxbMPuByHlVAZl8YErc68pE+YsO0aSrtf/7NXN0JaVEJl/rfcK2OESt4X4tdC0Qzxb0XC
+uqHltMJ9JNxZL648MYIDbzCCA2sCAQEwgZQwgYwxCzAJBgNVBAYTAklMMRYwFAYDVQQKEw1TdGFy
+dENvbSBMdGQuMSswKQYDVQQLEyJTZWN1cmUgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBTaWduaW5nMTgw
+NgYDVQQDEy9TdGFydENvbSBDbGFzcyAxIFByaW1hcnkgSW50ZXJtZWRpYXRlIENsaWVudCBDQQID
+AhV2MAkGBSsOAwIaBQCgggGvMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkF
+MQ8XDTExMDgxMzIyMDc1MVowIwYJKoZIhvcNAQkEMRYEFEHD6GEARXesTWg11e2WxALY3e5JMIGl
+BgkrBgEEAYI3EAQxgZcwgZQwgYwxCzAJBgNVBAYTAklMMRYwFAYDVQQKEw1TdGFydENvbSBMdGQu
+MSswKQYDVQQLEyJTZWN1cmUgRGlnaXRhbCBDZXJ0aWZpY2F0ZSBTaWduaW5nMTgwNgYDVQQDEy9T
+dGFydENvbSBDbGFzcyAxIFByaW1hcnkgSW50ZXJtZWRpYXRlIENsaWVudCBDQQIDAhV2MIGnBgsq
+hkiG9w0BCRACCzGBl6CBlDCBjDELMAkGA1UEBhMCSUwxFjAUBgNVBAoTDVN0YXJ0Q29tIEx0ZC4x
+KzApBgNVBAsTIlNlY3VyZSBEaWdpdGFsIENlcnRpZmljYXRlIFNpZ25pbmcxODA2BgNVBAMTL1N0
+YXJ0Q29tIENsYXNzIDEgUHJpbWFyeSBJbnRlcm1lZGlhdGUgQ2xpZW50IENBAgMCFXYwDQYJKoZI
+hvcNAQEBBQAEggEAqRjJK/sEVU+9RA6igAcNc5DxJE4lWEFn7x68168iHTErOlfPmvnpMA0HSKVk
+vETZ2ym/XgkXKaL0un8sNYY31BCN7OUGa3dbOyhN9fgC8gaL/4UlHHSowSFiOsACWdH5wo0NhbBf
+eIE79so7IykO314Rwng3/zaD0pq9PB4WLImL/Wk9RpRDjeXSUwF8VWgTvVLcPZF/UQR5uE9/A4tE
+0ufrWZ1W9sP+BX98cKDW0ElIIqI00c+KmiPet5yoto54IDNjKfITSwrxfN5Qc9fXGdcj19VzjIux
+dst+uOo3mQ9lZF+6AJLOR13KRKXgsn+YAtPz9TKTZfWGWtcsE+SJrwAAAAAAAA==
+
+
+--=-jiG/LfAXvNsNDbfC2Mgz--
+

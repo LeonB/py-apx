@@ -1,0 +1,88 @@
+From ithas@skynet.be Tue Aug  2 16:43:26 2011
+Received: from mailrelay003.isp.belgacom.be (195.238.6.53) by
+ OPTIMUS.tim-online.nl (10.76.122.21) with Microsoft SMTP Server id
+ 14.0.722.0; Tue, 2 Aug 2011 16:43:26 +0200
+X-Belgacom-Dynamic: yes
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result:
+ AusAADALOE5bthVm/2dsb2JhbABCmA2PVHiBQAEBDU4hDQEJAwMRBAEBClgGFAIOEwgJh12gZqAmhWNfBIcrhlOVYw
+Received: from 102.21-182-91.adsl-dyn.isp.belgacom.be (HELO Ingepc)
+ ([91.182.21.102])  by relay.skynet.be with SMTP; 02 Aug 2011 16:46:11 +0200
+Message-ID: <9FD906A41256483CABEAA964BCBFCBFA@Ingepc>
+From: Inge Thas <ithas@skynet.be>
+To: Leon Bogaert <leon@tim-online.nl>
+Subject: Fw: Delivery Status Notification (Failure)
+Date: Tue, 2 Aug 2011 16:46:09 +0200
+Content-Type: multipart/mixed; boundary="----=_NextPart_000_01A8_01CC5133.AE256510"
+X-Mailer: Microsoft Windows Mail 6.0.6001.18416
+X-MimeOLE: Produced By Microsoft MimeOLE V6.0.6001.18645
+Return-Path: ithas@skynet.be
+X-MS-Exchange-Organization-AuthSource: OPTIMUS.tim-online.nl
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-PRD: skynet.be
+X-MS-Exchange-Organization-SenderIdResult: Pass
+Received-SPF: Pass (OPTIMUS.tim-online.nl: domain of ithas@skynet.be
+ designates 195.238.6.53 as permitted sender)
+ receiver=OPTIMUS.tim-online.nl; client-ip=195.238.6.53;
+ helo=mailrelay003.isp.belgacom.be;
+X-GFI-SMTP-Submission: 1
+X-GFI-SMTP-HelloDomain: mailrelay003.isp.belgacom.be
+X-GFI-SMTP-RemoteIP: 195.238.6.53
+MIME-Version: 1.0
+
+
+------=_NextPart_000_01A8_01CC5133.AE256510
+Content-Type: text/plain; format=flowed; charset="iso-8859-1"; reply-type=original
+Content-Transfer-Encoding: 8bit
+
+
+----- Original Message ----- 
+From: "Mail Delivery System" <MAILER-DAEMON@secure-mail.be>
+To: <ithas@skynet.be>
+Sent: Tuesday, August 02, 2011 4:01 PM
+Subject: Delivery Status Notification (Failure)
+
+
+The following message to <leon@time-online.nl> was undeliverable.
+The reason for the problem:
+5.1.2 - Bad destination host 'DNS Hard Error looking up time-online.nl (MX): 
+NXDomain'
+
+------=_NextPart_000_01A8_01CC5133.AE256510
+Content-Type: application/octet-stream; name="ATT00418.dat"
+Content-Transfer-Encoding: quoted-printable
+Content-Disposition: attachment; filename="ATT00418.dat"
+
+Reporting-MTA: dns; mailrelay008.isp.belgacom.be
+
+Final-Recipient: rfc822;leon@time-online.nl
+Action: failed
+Status: 5.0.0 (permanent failure)
+Diagnostic-Code: smtp; 5.1.2 - Bad destination host 'DNS Hard Error looking=
+ up time-online.nl (MX):  NXDomain' (delivery attempts: 0)
+
+------=_NextPart_000_01A8_01CC5133.AE256510
+Content-Type: message/rfc822; name="factuur baasje .eml"
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename="factuur baasje .eml"
+
+X-Belgacom-Dynamic: yes
+X-IronPort-Anti-Spam-Filtered: true
+X-IronPort-Anti-Spam-Result:
+ AnkeAEkBOE5bthVm/2dsb2JhbABClA8DhD+FeoEMJ4djeIE3GD0RAiwKAwYBHScRIAYLDQwTCAmHXaB6oC+FY18EhyuVPIZ6
+Received: from 102.21-182-91.adsl-dyn.isp.belgacom.be (HELO Ingepc)
+ ([91.182.21.102])  by relay.skynet.be with SMTP; 02 Aug 2011 16:01:05 +0200
+Message-ID: <253238818DE0457F9CAE0182FD223EFA@Ingepc>
+From: Inge Thas <ithas@skynet.be>
+To: <leon@time-online.nl>
+Subject: factuur baasje 
+Date: Tue, 2 Aug 2011 16:01:03 +0200
+Content-Type: text/plain
+X-Mailer: Microsoft Windows Mail 6.0.6001.18416
+X-MimeOLE: Produced By Microsoft MimeOLE V6.0.6001.18645
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+
+------=_NextPart_000_01A8_01CC5133.AE256510--
+

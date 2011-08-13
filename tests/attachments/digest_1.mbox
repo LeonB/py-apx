@@ -1,0 +1,1583 @@
+From rubyonrails-talk@googlegroups.com Sun Sep 19 09:53:51 2010
+Received: from mail-pv0-f190.google.com (74.125.83.190) by
+ OPTIMUS.tim-online.nl (10.76.122.21) with Microsoft SMTP Server id
+ 14.0.702.0; Sun, 19 Sep 2010 09:53:51 +0200
+Received: by pvc22 with SMTP id 22sf346968pvc.27        for
+ <leon@tim-online.nl>; Sun, 19 Sep 2010 00:54:14 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=googlegroups.com;
+ s=beta; h=domainkey-signature:received:x-beenthere:received:received
+ :mime-version:to:from:subject:message-id:date:x-original-sender
+ :reply-to:precedence:mailing-list:list-id:list-post:list-help
+ :list-archive:sender:list-subscribe:list-unsubscribe:content-type;
+ bh=OhAwyHkivXoapeymqJKC+opIYTBnk+x2xGI3fdVMDTE=;
+ b=zK0PYG/16RhR6oe9FV+/j5YFErL1h2gGBWNNdpgIHZJgYjHAvZNuLoyMtmK7Bysbjs
+ gqVRjMBvLJAgrA13M+B9XBXsqJobl3E/3nROwXukT4sz1TWzMvDIff0psdzTaRcdvGtk
+ M+b+pF7i0p+mlalJDgdVQaz6sNAlpgTvExpqc=
+DomainKey-Signature: a=rsa-sha1; c=nofws; d=googlegroups.com; s=beta;
+ h=x-beenthere:mime-version:to:from:subject:message-id:date
+ :x-original-sender:reply-to:precedence:mailing-list:list-id
+ :list-post:list-help:list-archive:sender:list-subscribe
+ :list-unsubscribe:content-type;
+ b=TXF4eH/ik+PRNMfu6cx+A6zB3a0dDklMk/0IbrqWMTffgUkFn6bc4Sy4GJDT4A4X99
+ 8CBrGwXoMxVpF64fiKgsgx4fbbsXpQe0Vi+wCN1D6q5E4jWipEQ/jCHLODVhgeMUiqv4
+ VfNT1C3s0UwoUlsJXisQk4CKw5OstO/vOV1dM=
+Received: by 10.115.81.14 with SMTP id i14mr560263wal.10.1284882844070;
+ Sun, 19 Sep 2010 00:54:04 -0700 (PDT)
+X-BeenThere: rubyonrails-talk@googlegroups.com
+Received: by 10.115.66.21 with SMTP id t21ls4987944wak.2.p; Sun, 19 Sep
+ 2010 00:53:56 -0700 (PDT)
+Received: by 10.114.195.12 with SMTP id s12mr1530666waf.35.1284882835505;
+ Sun, 19 Sep 2010 00:53:55 -0700 (PDT)
+To: Abridged Recipients <rubyonrails-talk+digest@googlegroups.com>
+From: <rubyonrails-talk+noreply@googlegroups.com>
+Subject: [Rails] Abridged summary of rubyonrails-talk@googlegroups.com - 44
+ Messages in 21 Topics
+Message-ID: <0016e64dbe1cfcf61c0490981871@google.com>
+Date: Sun, 19 Sep 2010 07:53:55 +0000
+X-Original-Sender: rubyonrails-talk@googlegroups.com
+Reply-To: <rubyonrails-talk@googlegroups.com>
+Precedence: list
+Mailing-list: list rubyonrails-talk@googlegroups.com; contact
+ rubyonrails-talk+owners@googlegroups.com
+List-ID: <rubyonrails-talk.googlegroups.com>
+List-Post: <http://groups.google.com/group/rubyonrails-talk/post?hl=en_US>,
+ <mailto:rubyonrails-talk@googlegroups.com>
+List-Help: <http://groups.google.com/support/?hl=en_US>,
+ <mailto:rubyonrails-talk+help@googlegroups.com>
+List-Archive: <http://groups.google.com/group/rubyonrails-talk?hl=en_US>
+Sender: <rubyonrails-talk@googlegroups.com>
+List-Subscribe:
+ <http://groups.google.com/group/rubyonrails-talk/subscribe?hl=en_US>,
+ <mailto:rubyonrails-talk+subscribe@googlegroups.com>
+List-Unsubscribe:
+ <http://groups.google.com/group/rubyonrails-talk/subscribe?hl=en_US>,
+ <mailto:rubyonrails-talk+unsubscribe@googlegroups.com>
+Content-Type: multipart/alternative; boundary="0016367f94b4b30060474d22062"
+Return-Path: rubyonrails-talk+bncCMfhiYrkHhCVg9fkBBoEiLbvNw@googlegroups.com
+X-MS-Exchange-Organization-AuthSource: OPTIMUS.tim-online.nl
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-PRD: googlegroups.com
+X-MS-Exchange-Organization-SenderIdResult: Pass
+Received-SPF: Pass (OPTIMUS.tim-online.nl: domain of
+ rubyonrails-talk@googlegroups.com designates 74.125.83.190 as permitted
+ sender) receiver=OPTIMUS.tim-online.nl; client-ip=74.125.83.190;
+ helo=mail-pv0-f190.google.com;
+X-GFI-SMTP-Submission: 1
+X-GFI-SMTP-HelloDomain: mail-pv0-f190.google.com
+X-GFI-SMTP-RemoteIP: 74.125.83.190
+MIME-Version: 1.0
+
+
+--0016367f94b4b30060474d22062
+Content-Type: text/plain; charset="windows-1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+
+=============================================================================
+Today's Topic Summary
+=============================================================================
+
+Group: rubyonrails-talk@googlegroups.com
+Url: http://groups.google.com/group/rubyonrails-talk/topics
+
+  - how to increase the time-out [4 Updates]
+    http://groups.google.com/group/rubyonrails-talk/t/6fee6280a8fd2905
+  - Why freeze memoization? [1 Update]
+    http://groups.google.com/group/rubyonrails-talk/t/f1f860681ab3be4c
+  - Depot app from 'Agile Web Development with Rails' [1 Update]
+    http://groups.google.com/group/rubyonrails-talk/t/86c4ada8eb86b4e5
+  - fresh_when/stale? usage [2 Updates]
+    http://groups.google.com/group/rubyonrails-talk/t/edfd01dc88a5594b
+  - Different databases for different sub domains [2 Updates]
+    http://groups.google.com/group/rubyonrails-talk/t/d819a0d9c68420bd
+  - max-age/header problems with nginx [3 Updates]
+    http://groups.google.com/group/rubyonrails-talk/t/bd8bca9a802705c5
+  - Commenting in an ERB without generating a compiling error [7 Updates]
+    http://groups.google.com/group/rubyonrails-talk/t/f5401503f2f3820c
+  - [JOBS] Who is the most dynamic Leader you ever worked with?  Would you like to replicate that experience again? [1 Update]
+    http://groups.google.com/group/rubyonrails-talk/t/9b382614ba2c0154
+  - sqlite3/sqlite3_native (LoadError) [2 Updates]
+    http://groups.google.com/group/rubyonrails-talk/t/b35d6aadb74456d3
+  - readline error with rails 3 [3 Updates]
+    http://groups.google.com/group/rubyonrails-talk/t/20df4f96331652ad
+  - Rails3 Plugin Guide init.rb confusion [2 Updates]
+    http://groups.google.com/group/rubyonrails-talk/t/32dbd47560c17a7f
+  - Performing nested queries in rails [1 Update]
+    http://groups.google.com/group/rubyonrails-talk/t/d62af51582e20ab8
+  - Trying to look up comment through an ID, but failing [2 Updates]
+    http://groups.google.com/group/rubyonrails-talk/t/c25bac520f91f978
+  - attr_accessor_with_default -- how to use? [1 Update]
+    http://groups.google.com/group/rubyonrails-talk/t/c7a54559d15f8308
+  - Active Record Query [1 Update]
+    http://groups.google.com/group/rubyonrails-talk/t/1075eae752d4d0a8
+  - acts_as_solr plugin fate? [2 Updates]
+    http://groups.google.com/group/rubyonrails-talk/t/41d17ffa2d94b2ac
+  - Adding parent record to all tables [3 Updates]
+    http://groups.google.com/group/rubyonrails-talk/t/6a8022efde4c4649
+  - option_groups_from_collection_for_select [1 Update]
+    http://groups.google.com/group/rubyonrails-talk/t/82557e098c621010
+  - Postgresql RETURNING statement -> returning and ID after writing to a DB [3 Updates]
+    http://groups.google.com/group/rubyonrails-talk/t/da2ee7253faeb1b4
+  - Nil when calling joins method on Model [1 Update]
+    http://groups.google.com/group/rubyonrails-talk/t/e3d222b91c21c1ab
+  - Need help in filing Ruby on Rails Developer position in NY [1 Update]
+    http://groups.google.com/group/rubyonrails-talk/t/54a4b0017b53243b
+
+
+=============================================================================
+Topic: how to increase the time-out
+Url: http://groups.google.com/group/rubyonrails-talk/t/6fee6280a8fd2905
+=============================================================================
+
+---------- 1 of 4 ----------
+From: Walter Lee Davis <waltd@wdstudio.com>
+Date: Sep 18 08:58AM -0400
+Url: http://groups.google.com/group/rubyonrails-talk/msg/a175e105d6903b1e
+
+I have a Rails 2 app that doesn't get a lot of traffic. It's running  
+under Passenger and Apache 2.2, and when it's running, it has great  
+performance, page loads are very snappy, etc.
+
+---------- 2 of 4 ----------
+From: Hassan Schroeder <hassan.schroeder@gmail.com>
+Date: Sep 18 07:12AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/f91a70ace1fca278
+
+> "hmmm, server isn't responding...".
+
+> Is there something I can do, short of a cron job to request the home page
+> every couple of minutes, to keep this spin-down from happening?
+
+
+---------- 3 of 4 ----------
+From: Norm Scherer <normscherer@earthlink.net>
+Date: Sep 18 09:36AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/62eaaf90fcf25fa5
+
+Walter Lee Davis wrote:
+> page every couple of minutes, to keep this spin-down from happening?
+
+> Thanks,
+
+> Walter
+
+Take a look at the passenger documentation.  After a configurable idle 
+
+---------- 4 of 4 ----------
+From: "Robert Pankowecki (rupert)" <robert.pankowecki@gmail.com>
+Date: Sep 19 12:52AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/e2fe28eed5be916f
+
+Passenger 3 will have MinInstances option so you could say that you
+always want at least 1 instance ready to serve next request.
+
+Robert Pankowecki
+
+
+
+=============================================================================
+Topic: Why freeze memoization?
+Url: http://groups.google.com/group/rubyonrails-talk/t/f1f860681ab3be4c
+=============================================================================
+
+---------- 1 of 1 ----------
+From: trans <transfire@gmail.com>
+Date: Sep 19 12:05AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/ca50c81f2b9b2ea9
+
+On Aug 25, 2:55 am, Frederick Cheung <frederick.che...@gmail.com>
+wrote:
+
+
+> If you did this and foo wasn't frozen then you'd alter what
+> memoized_method returned for all future calls -
+
+
+=============================================================================
+Topic: Depot app from 'Agile Web Development with Rails'
+Url: http://groups.google.com/group/rubyonrails-talk/t/86c4ada8eb86b4e5
+=============================================================================
+
+---------- 1 of 1 ----------
+From: Mitko Kostov <lists@ruby-forum.com>
+Date: Sep 19 08:52AM +0200
+Url: http://groups.google.com/group/rubyonrails-talk/msg/f6b736d3679d1fb5
+
+In the book 'Agile web development with Rails", the authors are building
+a store-like app. At some point they add dynamic adding a product with
+ajax call.
+
+[code]
+<!-- store_controller#index -->
+
+
+=============================================================================
+Topic: fresh_when/stale? usage
+Url: http://groups.google.com/group/rubyonrails-talk/t/edfd01dc88a5594b
+=============================================================================
+
+---------- 1 of 2 ----------
+From: badnaam <asitkmishra@gmail.com>
+Date: Sep 18 05:47PM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/7bcf442acbeb046c
+
+In my post_index action, I generate different kinds of "@posts" like..
+
+def index
+     case params[:listing_type]
+          when "all"
+                 @posts = get_all_post_from_memcached
+
+---------- 2 of 2 ----------
+From: badnaam <asitkmishra@gmail.com>
+Date: Sep 18 07:18PM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/74fbded6ade8d47f
+
+##updated
+
+        def index
+             case params[:listing_type]
+                  when "all"
+                        #the key here is teh same key I used for
+memcached
+                    
+
+
+=============================================================================
+Topic: Different databases for different sub domains
+Url: http://groups.google.com/group/rubyonrails-talk/t/d819a0d9c68420bd
+=============================================================================
+
+---------- 1 of 2 ----------
+From: giorgio <george.peverell@gmail.com>
+Date: Sep 18 03:29PM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/47991b9cf0422a1a
+
+I asked on another thread about adding an "organisation_id" across the
+whole database to effectively give a separate database for different
+organisations who use the app.
+
+The other way of doing
+
+---------- 2 of 2 ----------
+From: Marnen Laibow-Koser <lists@ruby-forum.com>
+Date: Sep 19 01:46AM +0200
+Url: http://groups.google.com/group/rubyonrails-talk/msg/88bf4a960d4a7b43
+
+giorgio wrote:
+> organisations who use the app.
+
+> The other way of doing it would be to have one app but different
+> databases depending on the subdomain (or some logon credential).
+
+
+
+=============================================================================
+Topic: max-age/header problems with nginx
+Url: http://groups.google.com/group/rubyonrails-talk/t/bd8bca9a802705c5
+=============================================================================
+
+---------- 1 of 3 ----------
+From: badnaam <asitkmishra@gmail.com>
+Date: Sep 18 02:30PM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/ff91976c9b41e1a2
+
+0  down vote  favorite
+
+
+I notice that in my production enviornment (where I have memcached
+implemented) in see a cache-control - max-age header in firebug,
+anytime I am looking at an index page
+
+---------- 2 of 3 ----------
+From: Lionel Bouton <lionel-subscription@bouton.name>
+Date: Sep 18 11:58PM +0200
+Url: http://groups.google.com/group/rubyonrails-talk/msg/cf87edbdfe0ba00e
+
+The Sat, 18 Sep 2010 14:30:57 -0700 (PDT),
+> file to specify max age for regular content, I do have expires-max set
+> for css, jpg etc. here is my nginx.conf file..
+
+> http://pastie.org/1167080
+
+
+---------- 3 of 3 ----------
+From: badnaam <asitkmishra@gmail.com>
+Date: Sep 18 03:04PM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/a40e237d2cfdb8f3
+
+Hmm..not a regex expert at all. The one above obviously was borrowed.
+
+So how can I limit it to only asset files but not html or ajax
+content? I understand this is a rails forum..but I am hoping
+
+
+=============================================================================
+Topic: Commenting in an ERB without generating a compiling error
+Url: http://groups.google.com/group/rubyonrails-talk/t/f5401503f2f3820c
+=============================================================================
+
+---------- 1 of 7 ----------
+From: nobosh <bhellman1@gmail.com>
+Date: Sep 18 09:57AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/20320b56dbe77317
+
+Hello,
+
+I have the following:
+
+
+<% @projects.each do |project| %>
+  <tr>
+.
+	<td><%= link_to 'Destroy', project, :confirm => 'Are you
+sure?', :method => :delete %></td>
+.
+  </tr>
+<% end %>
+
+---------- 2 of 7 ----------
+From: Philip Hallstrom <philip@pjkh.com>
+Date: Sep 18 10:34AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/5ef203005d8deb4b
+
+> <% end %>
+
+> How can I safely comment out the TD line above? Do I have to use the
+> =begin way?
+
+If you don't mind HTML comments, just wrap it in <!-- ..... ->
+
+If you just want the link
+
+---------- 3 of 7 ----------
+From: nobosh <bhellman1@gmail.com>
+Date: Sep 18 10:50AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/4c99ead8e0612224
+
+Thanks for the reply. I need to avoid HTML comments. Also, I tried
+
+<%= <td><%= link_to 'Destroy', project, :confirm => 'Are you >
+sure?', :method => :delete %></td>  %>
+
+And what happens is
+
+---------- 4 of 7 ----------
+From: radhames brito <rbritom@gmail.com>
+Date: Sep 18 01:54PM -0400
+Url: http://groups.google.com/group/rubyonrails-talk/msg/811c5d1c0313bb7e
+
+because the parser see this
+<%#= <td><%= link_to 'Destroy', project, :confirm => 'Are you >
+sure?', :method => :delete %>
+
+and thinks i ended there
+so it thinks </td>  %> is text
+
+
+---------- 5 of 7 ----------
+From: Philip Hallstrom <philip@pjkh.com>
+Date: Sep 18 10:57AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/bf5cf73e75237481
+
+On Sep 18, 2010, at 10:50 AM, nobosh wrote:
+
+> the page: </td>  %>, meaning the " %> from the TD is being used to
+> close the comment, which is why I'm trying to find out a way to
+
+---------- 6 of 7 ----------
+From: nobosh <bhellman1@gmail.com>
+Date: Sep 18 12:35PM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/2824aa55caafc3ba
+
+Thanks all, just a little surprised that Rails doesn't have a simpilar
+way to comment things out in the view.
+
+
+
+---------- 7 of 7 ----------
+From: Marnen Laibow-Koser <lists@ruby-forum.com>
+Date: Sep 18 11:05PM +0200
+Url: http://groups.google.com/group/rubyonrails-talk/msg/190785a469c66ed7
+
+nobosh wrote:
+> Thanks all, just a little surprised that Rails 
+
+You mean ERb.
+
+> doesn't have a simpilar
+> way to comment things out in the view.
+
+Sure it does:
+<%# comment %>
+
+
+
+=============================================================================
+Topic: [JOBS] Who is the most dynamic Leader you ever worked with?  Would you like to replicate that experience again?
+Url: http://groups.google.com/group/rubyonrails-talk/t/9b382614ba2c0154
+=============================================================================
+
+---------- 1 of 1 ----------
+From: Ruby Kate <griff@sg.com>
+Date: Sep 18 07:12AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/9ff7b0993b35dc68
+
+My client has an opening for a Sr. Tech. Mngr RoR $250k-$300k+ Wash.
+DC/NYC - onsite/full time only.
+
+Well funded internal startup of a major data rich content provider is
+seeking a seasoned
+
+
+=============================================================================
+Topic: sqlite3/sqlite3_native (LoadError)
+Url: http://groups.google.com/group/rubyonrails-talk/t/b35d6aadb74456d3
+=============================================================================
+
+---------- 1 of 2 ----------
+From: Erling Wegger Linde <erlingwl@gmail.com>
+Date: Sep 18 07:00AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/f4e6ceccab3cd3a0
+
+I got a similar error when installing ruby 1.9.2 for the first time.
+After a lot of frustration I finally discovered that when I added
+
+puts RUBY_VERSION
+
+into the sqlite3.rb file, that rails
+
+---------- 2 of 2 ----------
+From: Erling Wegger Linde <erlingwl@gmail.com>
+Date: Sep 18 07:03AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/99f2a39fd24a89e6
+
+After a lot of debugging I tried to add
+
+puts RUBY_VERSION
+
+sqlite3.rb file. This made me realized rails was somehow running an
+old jruby version. After even more debugging I realized I was
+
+
+=============================================================================
+Topic: readline error with rails 3
+Url: http://groups.google.com/group/rubyonrails-talk/t/20df4f96331652ad
+=============================================================================
+
+---------- 1 of 3 ----------
+From: Rajinder Yadav <devguy.ca@gmail.com>
+Date: Sep 18 12:06PM -0400
+Url: http://groups.google.com/group/rubyonrails-talk/msg/d769915cb4eb6792
+
+when i type 'rails console' in my rails 3 project I get the following error
+
+/home/yadav/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/irb/completion.rb:9:in
+`require': no such file to load -- readline
+
+---------- 2 of 3 ----------
+From: Rajinder Yadav <devguy.ca@gmail.com>
+Date: Sep 18 12:26PM -0400
+Url: http://groups.google.com/group/rubyonrails-talk/msg/194a53a34d63964d
+
+I found the solution, this seems to be an error with RVM on Linux
+
+http://rvm.beginrescueend.com/packages/readline/
+
+
+---------- 3 of 3 ----------
+From: "Daniel Gaytán" <daniel.gaytan.news@gmail.com>
+Date: Sep 18 03:20PM -0500
+Url: http://groups.google.com/group/rubyonrails-talk/msg/798722944a20071c
+
+You need to install the dev files for realine before you do those steps
+
+2010/9/18 Rajinder Yadav <devguy.ca@gmail.com>
+
+
+
+
+=============================================================================
+Topic: Rails3 Plugin Guide init.rb confusion
+Url: http://groups.google.com/group/rubyonrails-talk/t/32dbd47560c17a7f
+=============================================================================
+
+---------- 1 of 2 ----------
+From: Andrew Ferk <andrewferk@gmail.com>
+Date: Sep 17 06:19PM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/e53c8bd4bef2314f
+
+Greg,
+
+I spent a lot of time today building a Rails 3 plugin, and
+http://guides.rubyonrails.org/plugins.html is outdated.  I will be
+looking into updating the page for Rails 3.
+
+
+---------- 2 of 2 ----------
+From: Greg Willits <lists@ruby-forum.com>
+Date: Sep 18 08:38PM +0200
+Url: http://groups.google.com/group/rubyonrails-talk/msg/de9c2ef41e8d0b07
+
+Andrew Ferk wrote:
+> to conform to the Rails Engine.
+
+> /PLUGIN/init.rb
+> /PLUGIN/lib/plugin.rb
+
+Thanks. Could init.rb include anything other than the require? Perhaps 
+the definition of some
+
+
+=============================================================================
+Topic: Performing nested queries in rails
+Url: http://groups.google.com/group/rubyonrails-talk/t/d62af51582e20ab8
+=============================================================================
+
+---------- 1 of 1 ----------
+From: pepe <Pepe@BetterRPG.com>
+Date: Sep 18 08:38AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/2bee036e539c7d9a
+
+> [...] Hence I am trying to apply the where condition on
+> @restaurants, using  @restaurants = @restaurants.where("cuisine
+> like ?", params[:cuisine]). But that doesn't work.
+
+
+
+=============================================================================
+Topic: Trying to look up comment through an ID, but failing
+Url: http://groups.google.com/group/rubyonrails-talk/t/c25bac520f91f978
+=============================================================================
+
+---------- 1 of 2 ----------
+From: radhames brito <rbritom@gmail.com>
+Date: Sep 18 07:13AM -0400
+Url: http://groups.google.com/group/rubyonrails-talk/msg/c66aa7f93a0ac199
+
+he is testing and some times is ['HTTP_REFERER'] empty that why he gets an
+error with :back
+
+
+
+---------- 2 of 2 ----------
+From: radhames brito <rbritom@gmail.com>
+Date: Sep 18 11:18AM -0400
+Url: http://groups.google.com/group/rubyonrails-talk/msg/7f2b8e4bad47bb1c
+
+http://github.com/rbritom/Simple_polymorphic_nested_comments
+
+
+In the readme i explain a bit of where im at with this , i think is ok for
+now but i will add comments to the code
+
+
+
+=============================================================================
+Topic: attr_accessor_with_default -- how to use?
+Url: http://groups.google.com/group/rubyonrails-talk/t/c7a54559d15f8308
+=============================================================================
+
+---------- 1 of 1 ----------
+From: Walter Lee Davis <waltd@wdstudio.com>
+Date: Sep 18 10:16AM -0400
+Url: http://groups.google.com/group/rubyonrails-talk/msg/7228bd76035e293b
+
+I have the following model:
+
+class User < ActiveRecord::Base
+    
+devise 
+  :registerable, :database_authenticatable, :recoverable, :confirmable,
+          :rememberable, :trackable,
+
+
+=============================================================================
+Topic: Active Record Query
+Url: http://groups.google.com/group/rubyonrails-talk/t/1075eae752d4d0a8
+=============================================================================
+
+---------- 1 of 1 ----------
+From: Lecky <leckylao@gmail.com>
+Date: Sep 18 07:14AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/57d53276301cde67
+
+I think the problem is come from this line:
+current_user.permissions.find_by_project_id(project_id).role.try(:name).nil ?
+
+And I am thinking if using try then it doesn't need to use .nil.
+
+
+=============================================================================
+Topic: acts_as_solr plugin fate?
+Url: http://groups.google.com/group/rubyonrails-talk/t/41d17ffa2d94b2ac
+=============================================================================
+
+---------- 1 of 2 ----------
+From: Walter Lee Davis <waltd@wdstudio.com>
+Date: Sep 18 08:08AM -0400
+Url: http://groups.google.com/group/rubyonrails-talk/msg/7165ad3adeac9fbc
+
+There's an acts_as_solr_reloaded that Google suggested, also on  
+Github, it looks like it has been given some new tricks.
+
+Walter
+
+On Sep 17, 2010, at 7:53 PM, Hassan Schroeder wrote:
+
+
+
+---------- 2 of 2 ----------
+From: Hassan Schroeder <hassan.schroeder@gmail.com>
+Date: Sep 18 06:20AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/1c3aa928bda9ed1e
+
+> There's an acts_as_solr_reloaded that Google suggested, also on Github, it
+> looks like it has been given some new tricks.
+
+Apparently I missed that, and it looks like a drop-in replacement.
+
+
+
+=============================================================================
+Topic: Adding parent record to all tables
+Url: http://groups.google.com/group/rubyonrails-talk/t/6a8022efde4c4649
+=============================================================================
+
+---------- 1 of 3 ----------
+From: "Robert Pankowecki (rupert)" <robert.pankowecki@gmail.com>
+Date: Sep 18 02:07AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/c2c57f11d54fbe05
+
+I think that a better way would be to create a separate database per
+organization. Every organization could have their own subdomain. And
+you could change the database connection during each request
+
+---------- 2 of 3 ----------
+From: giorgio <george.peverell@gmail.com>
+Date: Sep 18 03:35AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/a76ff64aba5af025
+
+Thanks for the ideas Rupert,
+
+I have not really done much with filters so I might think about that.
+Not sure If I understand entirely what you are trying to do though.
+
+The queries are not too
+
+---------- 3 of 3 ----------
+From: giorgio <george.peverell@gmail.com>
+Date: Sep 18 05:36AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/584c86ea82708238
+
+I have fixed the problem of getting the organisation_id into all the
+records without hundreds of assignements in controllers...
+
+I have an observer:
+
+class BaseTableObserver <
+
+
+=============================================================================
+Topic: option_groups_from_collection_for_select
+Url: http://groups.google.com/group/rubyonrails-talk/t/82557e098c621010
+=============================================================================
+
+---------- 1 of 1 ----------
+From: Jim Burgess <lists@ruby-forum.com>
+Date: Sep 18 01:47PM +0200
+Url: http://groups.google.com/group/rubyonrails-talk/msg/bb11a8d1d31d894d
+
+So, in case this helps anybody else, I managed to solve the problem by 
+updating to 2.3.8 in my production environment.
+Turned out to be a version thing after all.
+-- 
+Posted via
+
+
+=============================================================================
+Topic: Postgresql RETURNING statement -> returning and ID after writing to a DB
+Url: http://groups.google.com/group/rubyonrails-talk/t/da2ee7253faeb1b4
+=============================================================================
+
+---------- 1 of 3 ----------
+From: HeisenbergsUncertaintyThizz <cameron.thornton@gmail.com>
+Date: Sep 17 04:51PM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/5b666c943820e0
+
+Currently, I have an Articles page which creates articles in a DB.
+
+What I would like to do is to return the ID of the submitted article.
+
+I know how to do it with raw sql,
+
+"INSERT INTO test
+
+---------- 2 of 3 ----------
+From: Michael Schuerig <michael@schuerig.de>
+Date: Sep 18 01:17PM +0200
+Url: http://groups.google.com/group/rubyonrails-talk/msg/9bec837b976c92bb
+
+On Saturday 18 September 2010, HeisenbergsUncertaintyThizz wrote:
+
+> I know how to do it with raw sql,
+
+> "INSERT INTO test (name) VALUES ('My Name 1') RETURNING id; "
+
+> but I was wondering if
+
+---------- 3 of 3 ----------
+From: HeisenbergsUncertaintyThizz <cameron.thornton@gmail.com>
+Date: Sep 18 04:18AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/d0eaed7cea714ec0
+
+Thank you very much.
+
+
+
+
+=============================================================================
+Topic: Nil when calling joins method on Model
+Url: http://groups.google.com/group/rubyonrails-talk/t/e3d222b91c21c1ab
+=============================================================================
+
+---------- 1 of 1 ----------
+From: Jeff Gonzalez <likwid@gmail.com>
+Date: Sep 18 12:29AM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/daf589d9dd989079
+
+I am trying to call the joins method on my model, but whenever I do,
+it always returns nil.
+
+I have the following database schema:
+
+========================
+====            Host             ====
+
+
+=============================================================================
+Topic: Need help in filing Ruby on Rails Developer position in NY
+Url: http://groups.google.com/group/rubyonrails-talk/t/54a4b0017b53243b
+=============================================================================
+
+---------- 1 of 1 ----------
+From: Sunil <sunil.velagapudi@gmail.com>
+Date: Sep 17 05:57PM -0700
+Url: http://groups.google.com/group/rubyonrails-talk/msg/50e05717d1ce2b0d
+
+Request to contact me on sunil@maxiltechnology.com
+
+
+Dear Group Members,
+
+
+
+Could you please help me in filling the below position.
+
+
+
+We need Ruby on Rails Developer in NY – Long Term
+
+
+
+
+-- 
+You received this message because you are subscribed to the Google Groups "Ruby on Rails: Talk" group.
+To post to this group, send email to rubyonrails-talk@googlegroups.com.
+To unsubscribe from this group, send email to rubyonrails-talk+unsubscribe@googlegroups.com.
+For more options, visit this group at http://groups.google.com/group/rubyonrails-talk?hl=en.
+
+
+--0016367f94b4b30060474d22062
+Content-Type: text/html; charset="windows-1252"
+Content-Disposition: inline
+Content-Transfer-Encoding: 8bit
+
+<meta http-equiv="Content-Type" content="text/html; charset=Windows-1252"><div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;
+  <a name="digest_top">Today's Topic Summary</a></div>
+<p>Group: <a href="http://groups.google.com/group/rubyonrails-talk/topics">http://groups.google.com/group/rubyonrails-talk/topics</a></p>
+<ul>
+<li><a href="#group_thread_0">how to increase the time-out</a> [4 Updates]</li>
+<li><a href="#group_thread_1">Why freeze memoization?</a> [1 Update]</li>
+<li><a href="#group_thread_2">Depot app from 'Agile Web Development with Rails'</a> [1 Update]</li>
+<li><a href="#group_thread_3">fresh_when/stale? usage</a> [2 Updates]</li>
+<li><a href="#group_thread_4">Different databases for different sub domains</a> [2 Updates]</li>
+<li><a href="#group_thread_5">max-age/header problems with nginx</a> [3 Updates]</li>
+<li><a href="#group_thread_6">Commenting in an ERB without generating a compiling error</a> [7 Updates]</li>
+<li><a href="#group_thread_7">[JOBS] Who is the most dynamic Leader you ever worked with?  Would you like to replicate that experience again?</a> [1 Update]</li>
+<li><a href="#group_thread_8">sqlite3/sqlite3_native (LoadError)</a> [2 Updates]</li>
+<li><a href="#group_thread_9">readline error with rails 3</a> [3 Updates]</li>
+<li><a href="#group_thread_10">Rails3 Plugin Guide init.rb confusion</a> [2 Updates]</li>
+<li><a href="#group_thread_11">Performing nested queries in rails</a> [1 Update]</li>
+<li><a href="#group_thread_12">Trying to look up comment through an ID, but failing</a> [2 Updates]</li>
+<li><a href="#group_thread_13">attr_accessor_with_default -- how to use?</a> [1 Update]</li>
+<li><a href="#group_thread_14">Active Record Query</a> [1 Update]</li>
+<li><a href="#group_thread_15">acts_as_solr plugin fate?</a> [2 Updates]</li>
+<li><a href="#group_thread_16">Adding parent record to all tables</a> [3 Updates]</li>
+<li><a href="#group_thread_17">option_groups_from_collection_for_select</a> [1 Update]</li>
+<li><a href="#group_thread_18">Postgresql RETURNING statement -&gt; returning and ID after writing to a DB</a> [3 Updates]</li>
+<li><a href="#group_thread_19">Nil when calling joins method on Model</a> [1 Update]</li>
+<li><a href="#group_thread_20">Need help in filing Ruby on Rails Developer position in NY</a> [1 Update]</li>
+
+</ul>
+
+
+
+  
+  <a name="group_thread_0"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/6fee6280a8fd2905">how to increase the time-out</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Walter Lee Davis &lt;waltd@wdstudio.com&gt;</span> Sep 18 08:58AM -0400
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      I have a Rails 2 app that doesn't get a lot of traffic. It's running  <br>
+under Passenger and Apache 2.2, and when it's running, it has great  <br>
+performance, page loads are very snappy, etc.
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/a175e105d6903b1e">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="background-color: #e8eef7; font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Hassan Schroeder &lt;hassan.schroeder@gmail.com&gt;</span> Sep 18 07:12AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      &gt; &quot;hmmm, server isn't responding...&quot;.<br>
+&nbsp;<br>
+&gt; Is there something I can do, short of a cron job to request the home page<br>
+&gt; every couple of minutes, to keep this spin-down from happening?<br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/f91a70ace1fca278">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Norm Scherer &lt;normscherer@earthlink.net&gt;</span> Sep 18 09:36AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      Walter Lee Davis wrote:<br>
+&gt; page every couple of minutes, to keep this spin-down from happening?<br>
+&nbsp;<br>
+&gt; Thanks,<br>
+&nbsp;<br>
+&gt; Walter<br>
+&nbsp;<br>
+Take a look at the passenger documentation.  After a configurable idle 
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/62eaaf90fcf25fa5">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="background-color: #e8eef7; font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">&quot;Robert Pankowecki (rupert)&quot; &lt;robert.pankowecki@gmail.com&gt;</span> Sep 19 12:52AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      Passenger 3 will have MinInstances option so you could say that you<br>
+always want at least 1 instance ready to serve next request.<br>
+&nbsp;<br>
+Robert Pankowecki<br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/e2fe28eed5be916f">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_1"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/f1f860681ab3be4c">Why freeze memoization?</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">trans &lt;transfire@gmail.com&gt;</span> Sep 19 12:05AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      On Aug 25, 2:55&nbsp;am, Frederick Cheung &lt;frederick.che...@gmail.com&gt;<br>
+wrote:<br>
+&nbsp;<br>
+&nbsp;<br>
+&gt; If you did this and foo wasn't frozen then you'd alter what<br>
+&gt; memoized_method returned for all future calls -
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/ca50c81f2b9b2ea9">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_2"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/86c4ada8eb86b4e5">Depot app from 'Agile Web Development with Rails'</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Mitko Kostov &lt;lists@ruby-forum.com&gt;</span> Sep 19 08:52AM &#43;0200
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      In the book 'Agile web development with Rails&quot;, the authors are building<br>
+a store-like app. At some point they add dynamic adding a product with<br>
+ajax call.<br>
+&nbsp;<br>
+[code]<br>
+&lt;!-- store_controller#index --&gt;
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/f6b736d3679d1fb5">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_3"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/edfd01dc88a5594b">fresh_when/stale? usage</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">badnaam &lt;asitkmishra@gmail.com&gt;</span> Sep 18 05:47PM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      In my post_index action, I generate different kinds of &quot;@posts&quot; like..<br>
+&nbsp;<br>
+def index<br>
+     case params[:listing_type]<br>
+          when &quot;all&quot;<br>
+                 @posts = get_all_post_from_memcached
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/7bcf442acbeb046c">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="background-color: #e8eef7; font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">badnaam &lt;asitkmishra@gmail.com&gt;</span> Sep 18 07:18PM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      ##updated<br>
+&nbsp;<br>
+        def index<br>
+             case params[:listing_type]<br>
+                  when &quot;all&quot;<br>
+                        #the key here is teh same key I used for<br>
+memcached<br>
+                    
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/74fbded6ade8d47f">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_4"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/d819a0d9c68420bd">Different databases for different sub domains</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">giorgio &lt;george.peverell@gmail.com&gt;</span> Sep 18 03:29PM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      I asked on another thread about adding an &quot;organisation_id&quot; across the<br>
+whole database to effectively give a separate database for different<br>
+organisations who use the app.<br>
+&nbsp;<br>
+The other way of doing
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/47991b9cf0422a1a">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="background-color: #e8eef7; font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Marnen Laibow-Koser &lt;lists@ruby-forum.com&gt;</span> Sep 19 01:46AM &#43;0200
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      giorgio wrote:<br>
+&gt; organisations who use the app.<br>
+&nbsp;<br>
+&gt; The other way of doing it would be to have one app but different<br>
+&gt; databases depending on the subdomain (or some logon credential).<br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/88bf4a960d4a7b43">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_5"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/bd8bca9a802705c5">max-age/header problems with nginx</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">badnaam &lt;asitkmishra@gmail.com&gt;</span> Sep 18 02:30PM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      0  down vote  favorite<br>
+&nbsp;<br>
+&nbsp;<br>
+I notice that in my production enviornment (where I have memcached<br>
+implemented) in see a cache-control - max-age header in firebug,<br>
+anytime I am looking at an index page
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/ff91976c9b41e1a2">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="background-color: #e8eef7; font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Lionel Bouton &lt;lionel-subscription@bouton.name&gt;</span> Sep 18 11:58PM &#43;0200
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      The Sat, 18 Sep 2010 14:30:57 -0700 (PDT),<br>
+&gt; file to specify max age for regular content, I do have expires-max set<br>
+&gt; for css, jpg etc. here is my nginx.conf file..<br>
+&nbsp;<br>
+&gt; <a href="http://pastie.org/1167080">http://pastie.org/1167080</a><br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/cf87edbdfe0ba00e">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">badnaam &lt;asitkmishra@gmail.com&gt;</span> Sep 18 03:04PM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      Hmm..not a regex expert at all. The one above obviously was borrowed.<br>
+&nbsp;<br>
+So how can I limit it to only asset files but not html or ajax<br>
+content? I understand this is a rails forum..but I am hoping
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/a40e237d2cfdb8f3">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_6"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/f5401503f2f3820c">Commenting in an ERB without generating a compiling error</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">nobosh &lt;bhellman1@gmail.com&gt;</span> Sep 18 09:57AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      Hello,<br>
+&nbsp;<br>
+I have the following:<br>
+&nbsp;<br>
+&nbsp;<br>
+&lt;% @projects.each do |project| %&gt;<br>
+  &lt;tr&gt;<br>
+.<br>
+	&lt;td&gt;&lt;%= link_to 'Destroy', project, :confirm =&gt; 'Are you<br>
+sure?', :method =&gt; :delete %&gt;&lt;/td&gt;<br>
+.<br>
+  &lt;/tr&gt;<br>
+&lt;% end %&gt;
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/20320b56dbe77317">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="background-color: #e8eef7; font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Philip Hallstrom &lt;philip@pjkh.com&gt;</span> Sep 18 10:34AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      &gt; &lt;% end %&gt;<br>
+&nbsp;<br>
+&gt; How can I safely comment out the TD line above? Do I have to use the<br>
+&gt; =begin way?<br>
+&nbsp;<br>
+If you don't mind HTML comments, just wrap it in &lt;!-- ..... -&gt;<br>
+&nbsp;<br>
+If you just want the link
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/5ef203005d8deb4b">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">nobosh &lt;bhellman1@gmail.com&gt;</span> Sep 18 10:50AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      Thanks for the reply. I need to avoid HTML comments. Also, I tried<br>
+&nbsp;<br>
+&lt;%= &lt;td&gt;&lt;%= link_to 'Destroy', project, :confirm =&gt; 'Are you &gt;<br>
+sure?', :method =&gt; :delete %&gt;&lt;/td&gt;  %&gt;<br>
+&nbsp;<br>
+And what happens is
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/4c99ead8e0612224">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="background-color: #e8eef7; font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">radhames brito &lt;rbritom@gmail.com&gt;</span> Sep 18 01:54PM -0400
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      because the parser see this<br>
+&lt;%#= &lt;td&gt;&lt;%= link_to 'Destroy', project, :confirm =&gt; 'Are you &gt;<br>
+sure?', :method =&gt; :delete %&gt;<br>
+&nbsp;<br>
+and thinks i ended there<br>
+so it thinks &lt;/td&gt;  %&gt; is text<br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/811c5d1c0313bb7e">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Philip Hallstrom &lt;philip@pjkh.com&gt;</span> Sep 18 10:57AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      On Sep 18, 2010, at 10:50 AM, nobosh wrote:<br>
+&nbsp;<br>
+&gt; the page: &lt;/td&gt;  %&gt;, meaning the &quot; %&gt; from the TD is being used to<br>
+&gt; close the comment, which is why I'm trying to find out a way to
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/bf5cf73e75237481">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="background-color: #e8eef7; font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">nobosh &lt;bhellman1@gmail.com&gt;</span> Sep 18 12:35PM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      Thanks all, just a little surprised that Rails doesn't have a simpilar<br>
+way to comment things out in the view.<br>
+&nbsp;<br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/2824aa55caafc3ba">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Marnen Laibow-Koser &lt;lists@ruby-forum.com&gt;</span> Sep 18 11:05PM &#43;0200
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      nobosh wrote:<br>
+&gt; Thanks all, just a little surprised that Rails <br>
+&nbsp;<br>
+You mean ERb.<br>
+&nbsp;<br>
+&gt; doesn't have a simpilar<br>
+&gt; way to comment things out in the view.<br>
+&nbsp;<br>
+Sure it does:<br>
+&lt;%# comment %&gt;<br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/190785a469c66ed7">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_7"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/9b382614ba2c0154">[JOBS] Who is the most dynamic Leader you ever worked with?  Would you like to replicate that experience again?</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Ruby Kate &lt;griff@sg.com&gt;</span> Sep 18 07:12AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      My client has an opening for a Sr. Tech. Mngr RoR $250k-$300k&#43; Wash.<br>
+DC/NYC - onsite/full time only.<br>
+&nbsp;<br>
+Well funded internal startup of a major data rich content provider is<br>
+seeking a seasoned
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/9ff7b0993b35dc68">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_8"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/b35d6aadb74456d3">sqlite3/sqlite3_native (LoadError)</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Erling Wegger Linde &lt;erlingwl@gmail.com&gt;</span> Sep 18 07:00AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      I got a similar error when installing ruby 1.9.2 for the first time.<br>
+After a lot of frustration I finally discovered that when I added<br>
+&nbsp;<br>
+puts RUBY_VERSION<br>
+&nbsp;<br>
+into the sqlite3.rb file, that rails
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/f4e6ceccab3cd3a0">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="background-color: #e8eef7; font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Erling Wegger Linde &lt;erlingwl@gmail.com&gt;</span> Sep 18 07:03AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      After a lot of debugging I tried to add<br>
+&nbsp;<br>
+puts RUBY_VERSION<br>
+&nbsp;<br>
+sqlite3.rb file. This made me realized rails was somehow running an<br>
+old jruby version. After even more debugging I realized I was
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/99f2a39fd24a89e6">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_9"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/20df4f96331652ad">readline error with rails 3</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Rajinder Yadav &lt;devguy.ca@gmail.com&gt;</span> Sep 18 12:06PM -0400
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      when i type 'rails console' in my rails 3 project I get the following error<br>
+&nbsp;<br>
+/home/yadav/.rvm/rubies/ruby-1.9.2-p0/lib/ruby/1.9.1/irb/completion.rb:9:in<br>
+`require': no such file to load -- readline
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/d769915cb4eb6792">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="background-color: #e8eef7; font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Rajinder Yadav &lt;devguy.ca@gmail.com&gt;</span> Sep 18 12:26PM -0400
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      I found the solution, this seems to be an error with RVM on Linux<br>
+&nbsp;<br>
+<a href="http://rvm.beginrescueend.com/packages/readline/">http://rvm.beginrescueend.com/packages/readline/</a><br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/194a53a34d63964d">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">&quot;Daniel Gaytán&quot; &lt;daniel.gaytan.news@gmail.com&gt;</span> Sep 18 03:20PM -0500
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      You need to install the dev files for realine before you do those steps<br>
+&nbsp;<br>
+2010/9/18 Rajinder Yadav &lt;devguy.ca@gmail.com&gt;<br>
+&nbsp;<br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/798722944a20071c">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_10"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/32dbd47560c17a7f">Rails3 Plugin Guide init.rb confusion</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Andrew Ferk &lt;andrewferk@gmail.com&gt;</span> Sep 17 06:19PM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      Greg,<br>
+&nbsp;<br>
+I spent a lot of time today building a Rails 3 plugin, and<br>
+<a href="http://guides.rubyonrails.org/plugins.html">http://guides.rubyonrails.org/plugins.html</a> is outdated.  I will be<br>
+looking into updating the page for Rails 3.<br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/e53c8bd4bef2314f">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="background-color: #e8eef7; font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Greg Willits &lt;lists@ruby-forum.com&gt;</span> Sep 18 08:38PM &#43;0200
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      Andrew Ferk wrote:<br>
+&gt; to conform to the Rails Engine.<br>
+&nbsp;<br>
+&gt; /PLUGIN/init.rb<br>
+&gt; /PLUGIN/lib/plugin.rb<br>
+&nbsp;<br>
+Thanks. Could init.rb include anything other than the require? Perhaps <br>
+the definition of some
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/de9c2ef41e8d0b07">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_11"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/d62af51582e20ab8">Performing nested queries in rails</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">pepe &lt;Pepe@BetterRPG.com&gt;</span> Sep 18 08:38AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      &gt; [...] Hence I am trying to apply the where condition on<br>
+&gt; @restaurants, using &nbsp;@restaurants = @restaurants.where(&quot;cuisine<br>
+&gt; like ?&quot;, params[:cuisine]). But that doesn't work.<br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/2bee036e539c7d9a">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_12"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/c25bac520f91f978">Trying to look up comment through an ID, but failing</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">radhames brito &lt;rbritom@gmail.com&gt;</span> Sep 18 07:13AM -0400
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      he is testing and some times is ['HTTP_REFERER'] empty that why he gets an<br>
+error with :back<br>
+&nbsp;<br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/c66aa7f93a0ac199">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="background-color: #e8eef7; font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">radhames brito &lt;rbritom@gmail.com&gt;</span> Sep 18 11:18AM -0400
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      <a href="http://github.com/rbritom/Simple_polymorphic_nested_comments">http://github.com/rbritom/Simple_polymorphic_nested_comments</a><br>
+&nbsp;<br>
+&nbsp;<br>
+In the readme i explain a bit of where im at with this , i think is ok for<br>
+now but i will add comments to the code<br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/7f2b8e4bad47bb1c">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_13"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/c7a54559d15f8308">attr_accessor_with_default -- how to use?</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Walter Lee Davis &lt;waltd@wdstudio.com&gt;</span> Sep 18 10:16AM -0400
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      I have the following model:<br>
+&nbsp;<br>
+class User &lt; ActiveRecord::Base<br>
+    <br>
+devise <br>
+  :registerable, :database_authenticatable, :recoverable, :confirmable,<br>
+          :rememberable, :trackable,
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/7228bd76035e293b">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_14"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/1075eae752d4d0a8">Active Record Query</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Lecky &lt;leckylao@gmail.com&gt;</span> Sep 18 07:14AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      I think the problem is come from this line:<br>
+current_user.permissions.find_by_project_id(project_id).role.try(:name).nil ?<br>
+&nbsp;<br>
+And I am thinking if using try then it doesn't need to use .nil.
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/57d53276301cde67">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_15"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/41d17ffa2d94b2ac">acts_as_solr plugin fate?</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Walter Lee Davis &lt;waltd@wdstudio.com&gt;</span> Sep 18 08:08AM -0400
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      There's an acts_as_solr_reloaded that Google suggested, also on  <br>
+Github, it looks like it has been given some new tricks.<br>
+&nbsp;<br>
+Walter<br>
+&nbsp;<br>
+On Sep 17, 2010, at 7:53 PM, Hassan Schroeder wrote:<br>
+&nbsp;<br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/7165ad3adeac9fbc">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="background-color: #e8eef7; font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Hassan Schroeder &lt;hassan.schroeder@gmail.com&gt;</span> Sep 18 06:20AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      &gt; There's an acts_as_solr_reloaded that Google suggested, also on Github, it<br>
+&gt; looks like it has been given some new tricks.<br>
+&nbsp;<br>
+Apparently I missed that, and it looks like a drop-in replacement.<br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/1c3aa928bda9ed1e">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_16"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/6a8022efde4c4649">Adding parent record to all tables</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">&quot;Robert Pankowecki (rupert)&quot; &lt;robert.pankowecki@gmail.com&gt;</span> Sep 18 02:07AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      I think that a better way would be to create a separate database per<br>
+organization. Every organization could have their own subdomain. And<br>
+you could change the database connection during each request
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/c2c57f11d54fbe05">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="background-color: #e8eef7; font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">giorgio &lt;george.peverell@gmail.com&gt;</span> Sep 18 03:35AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      Thanks for the ideas Rupert,<br>
+&nbsp;<br>
+I have not really done much with filters so I might think about that.<br>
+Not sure If I understand entirely what you are trying to do though.<br>
+&nbsp;<br>
+The queries are not too
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/a76ff64aba5af025">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">giorgio &lt;george.peverell@gmail.com&gt;</span> Sep 18 05:36AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      I have fixed the problem of getting the organisation_id into all the<br>
+records without hundreds of assignements in controllers...<br>
+&nbsp;<br>
+I have an observer:<br>
+&nbsp;<br>
+class BaseTableObserver &lt;
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/584c86ea82708238">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_17"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/82557e098c621010">option_groups_from_collection_for_select</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Jim Burgess &lt;lists@ruby-forum.com&gt;</span> Sep 18 01:47PM &#43;0200
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      So, in case this helps anybody else, I managed to solve the problem by <br>
+updating to 2.3.8 in my production environment.<br>
+Turned out to be a version thing after all.<br>
+-- <br>
+Posted via
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/bb11a8d1d31d894d">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_18"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/da2ee7253faeb1b4">Postgresql RETURNING statement -&gt; returning and ID after writing to a DB</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">HeisenbergsUncertaintyThizz &lt;cameron.thornton@gmail.com&gt;</span> Sep 17 04:51PM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      Currently, I have an Articles page which creates articles in a DB.<br>
+&nbsp;<br>
+What I would like to do is to return the ID of the submitted article.<br>
+&nbsp;<br>
+I know how to do it with raw sql,<br>
+&nbsp;<br>
+&quot;INSERT INTO test
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/5b666c943820e0">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="background-color: #e8eef7; font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Michael Schuerig &lt;michael@schuerig.de&gt;</span> Sep 18 01:17PM &#43;0200
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      On Saturday 18 September 2010, HeisenbergsUncertaintyThizz wrote:<br>
+&nbsp;<br>
+&gt; I know how to do it with raw sql,<br>
+&nbsp;<br>
+&gt; &quot;INSERT INTO test (name) VALUES ('My Name 1') RETURNING id; &quot;<br>
+&nbsp;<br>
+&gt; but I was wondering if
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/9bec837b976c92bb">more...</a><br>
+    </div>
+  </ul>
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">HeisenbergsUncertaintyThizz &lt;cameron.thornton@gmail.com&gt;</span> Sep 18 04:18AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      Thank you very much.<br>
+&nbsp;<br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/d0eaed7cea714ec0">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_19"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/e3d222b91c21c1ab">Nil when calling joins method on Model</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Jeff Gonzalez &lt;likwid@gmail.com&gt;</span> Sep 18 12:29AM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      I am trying to call the joins method on my model, but whenever I do,<br>
+it always returns nil.<br>
+&nbsp;<br>
+I have the following database schema:<br>
+&nbsp;<br>
+========================<br>
+====            Host             ====
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/daf589d9dd989079">more...</a><br>
+    </div>
+  </ul>
+  
+
+  
+  <a name="group_thread_20"></a>
+  <div style="background-color: #e8eef7; font-family: helvetica; font-size: 140%; border-top: 1px solid #7799dd; padding: 2px">&nbsp;Topic: <a target="_blank" href="http://groups.google.com/group/rubyonrails-talk/t/54a4b0017b53243b">Need help in filing Ruby on Rails Developer position in NY</a></div>
+
+  
+  <ul>
+    <div style="font-family: arial; padding:10px 10px 14px"><span style="color: ; font-weight: bold">Sunil &lt;sunil.velagapudi@gmail.com&gt;</span> Sep 17 05:57PM -0700
+      <a href="#digest_top">^</a><br>
+      &nbsp;<br>
+      Request to contact me on sunil@maxiltechnology.com<br>
+&nbsp;<br>
+&nbsp;<br>
+Dear Group Members,<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+Could you please help me in filling the below position.<br>
+&nbsp;<br>
+&nbsp;<br>
+&nbsp;<br>
+We need Ruby on Rails Developer in NY – Long Term<br>
+
+      <a href="http://groups.google.com/group/rubyonrails-talk/msg/50e05717d1ce2b0d">more...</a><br>
+    </div>
+  </ul>
+  
+
+
+<p></p>
+
+-- <br>
+You received this message because you are subscribed to the Google Groups &quot;Ruby on Rails: Talk&quot; group.<br>
+To post to this group, send email to rubyonrails-talk@googlegroups.com.<br>
+To unsubscribe from this group, send email to rubyonrails-talk&#43;unsubscribe@googlegroups.com.<br>
+
+For more options, visit this group at http://groups.google.com/group/rubyonrails-talk?hl=en.<br>
+
+
+
+--0016367f94b4b30060474d22062--
+
